@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  KindergartensCommunityViewController.swift
 //  DD-iOS
 //
 //  Created by zaehorang on 2023/09/07.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class KindergartensCommunityViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
