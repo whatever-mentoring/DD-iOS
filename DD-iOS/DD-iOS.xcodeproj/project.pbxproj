@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		269BE0802AA981A1007059D0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269BE07F2AA981A1007059D0 /* Home.storyboard */; };
+		269BE0822AA981AE007059D0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269BE0812AA981AE007059D0 /* HomeViewController.swift */; };
+		26F0D5372AA977F900DF335B /* Diary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F0D5362AA977F900DF335B /* Diary.storyboard */; };
+		26F0D5392AA9780D00DF335B /* Community.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F0D5382AA9780D00DF335B /* Community.storyboard */; };
+		26F0D53B2AA9782800DF335B /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F0D53A2AA9782800DF335B /* MyPage.storyboard */; };
+		26FBEEF72AA97C3B0017D6D1 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBEEF62AA97C3B0017D6D1 /* DiaryViewController.swift */; };
+		26FBEEF92AA97C480017D6D1 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBEEF82AA97C480017D6D1 /* CommunityViewController.swift */; };
+		26FBEEFB2AA97C510017D6D1 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBEEFA2AA97C510017D6D1 /* MyPageViewController.swift */; };
 		F9C3D4CC2AA6B7B6006931FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C3D4CB2AA6B7B6006931FF /* AppDelegate.swift */; };
 		F9C3D4CE2AA6B7B6006931FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C3D4CD2AA6B7B6006931FF /* SceneDelegate.swift */; };
 		F9C3D4D02AA6B7B6006931FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C3D4CF2AA6B7B6006931FF /* ViewController.swift */; };
@@ -16,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		269BE07F2AA981A1007059D0 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		269BE0812AA981AE007059D0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		26F0D5362AA977F900DF335B /* Diary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Diary.storyboard; sourceTree = "<group>"; };
+		26F0D5382AA9780D00DF335B /* Community.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Community.storyboard; sourceTree = "<group>"; };
+		26F0D53A2AA9782800DF335B /* MyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPage.storyboard; sourceTree = "<group>"; };
+		26FBEEF62AA97C3B0017D6D1 /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
+		26FBEEF82AA97C480017D6D1 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		26FBEEFA2AA97C510017D6D1 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		F9C3D4C82AA6B7B6006931FF /* DD-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DD-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C3D4CB2AA6B7B6006931FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9C3D4CD2AA6B7B6006931FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +53,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26F0D5352AA9774900DF335B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F9C3D4BF2AA6B7B6006931FF = {
 			isa = PBXGroup;
 			children = (
@@ -56,7 +79,9 @@
 		F9C3D4CA2AA6B7B6006931FF /* DD-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F9C3D4DF2AA6B83C006931FF /* Models */,
+				F9C3D4CB2AA6B7B6006931FF /* AppDelegate.swift */,
+				F9C3D4CD2AA6B7B6006931FF /* SceneDelegate.swift */,
+				26F0D5352AA9774900DF335B /* Models */,
 				F9C3D4E02AA6B843006931FF /* View */,
 				F9C3D4E12AA6B84A006931FF /* Controller */,
 				F9C3D4D42AA6B7B7006931FF /* Assets.xcassets */,
@@ -65,22 +90,15 @@
 			path = "DD-iOS";
 			sourceTree = "<group>";
 		};
-		F9C3D4DF2AA6B83C006931FF /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		F9C3D4E02AA6B843006931FF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F9C3D4E22AA6B999006931FF /* Home */,
-				F9C3D4E32AA6B9A0006931FF /* Diary */,
-				F9C3D4E42AA6B9A7006931FF /* Community */,
-				F9C3D4E52AA6B9B9006931FF /* Mypage */,
 				F9C3D4D62AA6B7B7006931FF /* LaunchScreen.storyboard */,
 				F9C3D4D12AA6B7B6006931FF /* Main.storyboard */,
+				269BE07F2AA981A1007059D0 /* Home.storyboard */,
+				26F0D5362AA977F900DF335B /* Diary.storyboard */,
+				26F0D5382AA9780D00DF335B /* Community.storyboard */,
+				26F0D53A2AA9782800DF335B /* MyPage.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,71 +106,13 @@
 		F9C3D4E12AA6B84A006931FF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F9C3D4E62AA6B9E9006931FF /* Home */,
-				F9C3D4E72AA6B9F1006931FF /* Diary */,
-				F9C3D4E82AA6B9FA006931FF /* Community */,
-				F9C3D4E92AA6BA01006931FF /* Mypage */,
 				F9C3D4CF2AA6B7B6006931FF /* ViewController.swift */,
-				F9C3D4CB2AA6B7B6006931FF /* AppDelegate.swift */,
-				F9C3D4CD2AA6B7B6006931FF /* SceneDelegate.swift */,
+				269BE0812AA981AE007059D0 /* HomeViewController.swift */,
+				26FBEEF62AA97C3B0017D6D1 /* DiaryViewController.swift */,
+				26FBEEF82AA97C480017D6D1 /* CommunityViewController.swift */,
+				26FBEEFA2AA97C510017D6D1 /* MyPageViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		F9C3D4E22AA6B999006931FF /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		F9C3D4E32AA6B9A0006931FF /* Diary */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Diary;
-			sourceTree = "<group>";
-		};
-		F9C3D4E42AA6B9A7006931FF /* Community */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Community;
-			sourceTree = "<group>";
-		};
-		F9C3D4E52AA6B9B9006931FF /* Mypage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mypage;
-			sourceTree = "<group>";
-		};
-		F9C3D4E62AA6B9E9006931FF /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		F9C3D4E72AA6B9F1006931FF /* Diary */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Diary;
-			sourceTree = "<group>";
-		};
-		F9C3D4E82AA6B9FA006931FF /* Community */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Community;
-			sourceTree = "<group>";
-		};
-		F9C3D4E92AA6BA01006931FF /* Mypage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mypage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,8 +173,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				269BE0802AA981A1007059D0 /* Home.storyboard in Resources */,
+				26F0D5372AA977F900DF335B /* Diary.storyboard in Resources */,
+				26F0D53B2AA9782800DF335B /* MyPage.storyboard in Resources */,
 				F9C3D4D82AA6B7B7006931FF /* LaunchScreen.storyboard in Resources */,
 				F9C3D4D52AA6B7B7006931FF /* Assets.xcassets in Resources */,
+				26F0D5392AA9780D00DF335B /* Community.storyboard in Resources */,
 				F9C3D4D32AA6B7B6006931FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,8 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FBEEF72AA97C3B0017D6D1 /* DiaryViewController.swift in Sources */,
+				26FBEEFB2AA97C510017D6D1 /* MyPageViewController.swift in Sources */,
 				F9C3D4D02AA6B7B6006931FF /* ViewController.swift in Sources */,
 				F9C3D4CC2AA6B7B6006931FF /* AppDelegate.swift in Sources */,
+				26FBEEF92AA97C480017D6D1 /* CommunityViewController.swift in Sources */,
+				269BE0822AA981AE007059D0 /* HomeViewController.swift in Sources */,
 				F9C3D4CE2AA6B7B6006931FF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
