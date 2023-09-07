@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home View Controller-->
+        <!--Users Home View Controller-->
         <scene sceneID="gzs-wE-8AZ">
             <objects>
-                <viewController id="x3u-eR-VOS" customClass="HomeViewController" customModule="DD_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="x3u-eR-VOS" customClass="UsersHomeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n3g-C9-tAK">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -36,11 +36,11 @@
             </objects>
             <point key="canvasLocation" x="2292" y="-35"/>
         </scene>
-        <!--Item-->
+        <!--Home-->
         <scene sceneID="ARC-Ud-y0d">
             <objects>
-                <navigationController storyboardIdentifier="HomeViewController" automaticallyAdjustsScrollViewInsets="NO" id="26G-rO-p0B" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="SwF-cL-dW0"/>
+                <navigationController storyboardIdentifier="UsersHomeViewController" automaticallyAdjustsScrollViewInsets="NO" id="26G-rO-p0B" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" id="SwF-cL-dW0"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aNw-ZS-X18">
