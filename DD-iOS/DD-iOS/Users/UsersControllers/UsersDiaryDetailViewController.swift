@@ -19,15 +19,6 @@ class DiaryDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        setupUI()
-    }
-    
-    func setupUI() {
-    
-        diarydetailDateLabel?.text = diaryData?.diaryDate
-        diarydetailTitleLabel?.text = diaryData?.diaryTitle
-        diarydetailDetailLabel?.text = diaryData?.diaryDetail
-        
     }
 
 }

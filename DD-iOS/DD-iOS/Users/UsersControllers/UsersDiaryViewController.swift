@@ -49,6 +49,10 @@ class DiaryViewController: UIViewController, UITableViewDelegate, UITableViewDat
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "diaryDetailView", sender: nil)
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
