@@ -72,18 +72,10 @@
 		26CDB8502AA9F49E00D66C47 /* Users */ = {
 			isa = PBXGroup;
 			children = (
-				26CDB8512AA9F51300D66C47 /* UsersModels */,
 				26CDB8532AA9F53100D66C47 /* UsersViews */,
 				26CDB8542AA9F54700D66C47 /* UswersControllers */,
 			);
 			path = Users;
-			sourceTree = "<group>";
-		};
-		26CDB8512AA9F51300D66C47 /* UsersModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UsersModels;
 			sourceTree = "<group>";
 		};
 		26CDB8532AA9F53100D66C47 /* UsersViews */ = {
@@ -130,13 +122,6 @@
 			path = KindergartensViews;
 			sourceTree = "<group>";
 		};
-		26CDB85B2AA9FD9E00D66C47 /* KindergartensModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = KindergartensModels;
-			sourceTree = "<group>";
-		};
 		26CDB86C2AAA02A900D66C47 /* FirstPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,7 +134,6 @@
 		26F0D5352AA9774900DF335B /* Kindergartens */ = {
 			isa = PBXGroup;
 			children = (
-				26CDB85B2AA9FD9E00D66C47 /* KindergartensModels */,
 				26CDB85A2AA9FD9200D66C47 /* KindergartensViews */,
 				26CDB8592AA9FD8100D66C47 /* KindergartensControllers */,
 			);

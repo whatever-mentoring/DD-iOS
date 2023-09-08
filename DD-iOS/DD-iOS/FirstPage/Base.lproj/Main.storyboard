@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uR5-4d-iHF">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -52,40 +52,40 @@
         <!--KindergartensHomeViewController-->
         <scene sceneID="8Er-k5-6jY">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="spF-Oy-M4Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder storyboardName="KindergartensHome" referencedIdentifier="KindergartensHomeViewController" id="5pj-yh-Cz2" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="HoW-oT-J5Q"/>
                 </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="spF-Oy-M4Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3866" y="1006"/>
         </scene>
         <!--KindergartensDiaryViewController-->
         <scene sceneID="9jy-Z4-2AK">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="obP-R0-k6N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder storyboardName="KindergartensDiary" referencedIdentifier="KindergartensDiaryViewController" id="ISs-1u-eYm" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="ymU-d2-QOB"/>
                 </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="obP-R0-k6N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4327" y="1006"/>
         </scene>
         <!--KindergartensCommunityViewController-->
         <scene sceneID="4sZ-lU-wtr">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bnP-a8-WSF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder storyboardName="KindergartensCommunity" referencedIdentifier="KindergartensCommunityViewController" id="gdr-im-J51" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="2X3-e5-fDF"/>
                 </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bnP-a8-WSF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4823" y="1006"/>
         </scene>
         <!--KindergartensMyPageViewController-->
         <scene sceneID="G6F-ij-Hhx">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3XA-sU-Tuy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder storyboardName="KindergartensMyPage" referencedIdentifier="KindergartensMyPageViewController" id="aA1-Gk-1WH" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="kO0-vm-JGi"/>
                 </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3XA-sU-Tuy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5379" y="1006"/>
         </scene>
