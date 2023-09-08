@@ -72,8 +72,8 @@
 		26CDB8502AA9F49E00D66C47 /* Users */ = {
 			isa = PBXGroup;
 			children = (
-				26CDB8532AA9F53100D66C47 /* UsersViews */,
 				26CDB8542AA9F54700D66C47 /* UswersControllers */,
+				26CDB8532AA9F53100D66C47 /* UsersViews */,
 			);
 			path = Users;
 			sourceTree = "<group>";
