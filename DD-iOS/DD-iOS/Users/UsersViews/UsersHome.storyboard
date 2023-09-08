@@ -13,7 +13,7 @@
         <!--Users Home View Controller-->
         <scene sceneID="gzs-wE-8AZ">
             <objects>
-                <viewController id="x3u-eR-VOS" customClass="UsersHomeViewController" sceneMemberID="viewController">
+                <viewController id="x3u-eR-VOS" customClass="UsersHomeViewController" customModule="DD_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n3g-C9-tAK">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
