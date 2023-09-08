@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="diaryCell" rowHeight="304" id="KGk-i7-Jjw" customClass="DiaryTableViewCell" customModule="DD_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="288"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="288"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NiR-cV-p4s">
+                        <rect key="frame" x="20" y="20" width="350" height="135"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="350" id="H4l-ZE-lbS"/>
+                            <constraint firstAttribute="height" constant="135" id="tTr-0K-G87"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPe-Am-FH4">
+                        <rect key="frame" x="30" y="30" width="31" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hR-1J-4WU">
+                        <rect key="frame" x="30" y="48" width="44" height="27"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0XG-cH-PXI">
+                        <rect key="frame" x="340" y="30" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Ae1-mV-jPt"/>
+                            <constraint firstAttribute="width" constant="20" id="smV-1F-X9a"/>
+                        </constraints>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal">
+                            <imageReference key="image" image="ellipsis" catalog="system" symbolScale="medium"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iwe-Cm-6G0">
+                        <rect key="frame" x="30" y="173" width="330" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="330" id="H4p-Nn-TFe"/>
+                            <constraint firstAttribute="height" constant="100" id="wTZ-UN-oW0"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="Details">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <font key="NSFont" metaFont="system" size="15"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.3" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.14901961389999999" green="0.14901961389999999" blue="0.14901961389999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="iwe-Cm-6G0" secondAttribute="trailing" constant="30" id="8k1-5h-x6N"/>
+                    <constraint firstItem="NiR-cV-p4s" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Bzb-6E-fyq"/>
+                    <constraint firstItem="NiR-cV-p4s" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="D0a-k9-ZaJ"/>
+                    <constraint firstAttribute="bottom" secondItem="iwe-Cm-6G0" secondAttribute="bottom" constant="15" id="EF4-72-izG"/>
+                    <constraint firstItem="iwe-Cm-6G0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="IL6-jQ-2Z9"/>
+                    <constraint firstAttribute="trailing" secondItem="NiR-cV-p4s" secondAttribute="trailing" constant="20" id="LQh-b0-d0k"/>
+                    <constraint firstItem="2hR-1J-4WU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="VyO-2G-kd9"/>
+                    <constraint firstItem="2hR-1J-4WU" firstAttribute="top" secondItem="pPe-Am-FH4" secondAttribute="bottom" constant="1" id="WoF-nw-fXC"/>
+                    <constraint firstItem="pPe-Am-FH4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="hK5-H4-Ok2"/>
+                    <constraint firstItem="0XG-cH-PXI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="kMs-lG-7s5"/>
+                    <constraint firstItem="pPe-Am-FH4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="snQ-7g-nBd"/>
+                    <constraint firstAttribute="trailing" secondItem="0XG-cH-PXI" secondAttribute="trailing" constant="30" id="vEg-Bt-kfF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="diaryDateLabel" destination="pPe-Am-FH4" id="ur8-8j-0cU"/>
+                <outlet property="diaryDetailButton" destination="0XG-cH-PXI" id="bZb-Zj-dgf"/>
+                <outlet property="diaryDetailLabel" destination="iwe-Cm-6G0" id="gBE-wg-Qwf"/>
+                <outlet property="diaryImage" destination="NiR-cV-p4s" id="H3A-Fz-wG9"/>
+                <outlet property="diaryTitleLabel" destination="2hR-1J-4WU" id="hYi-w8-Trv"/>
+            </connections>
+            <point key="canvasLocation" x="158.77862595419847" y="25.35211267605634"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ellipsis" catalog="system" width="128" height="37"/>
+    </resources>
+</document>
