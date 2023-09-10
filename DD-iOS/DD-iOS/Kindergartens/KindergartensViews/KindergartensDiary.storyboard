@@ -12,7 +12,7 @@
         <!--Diary-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="KindergartensDiaryViewController" id="Y6W-OH-hqX" customClass="KindergartensDiaryViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="KindergartensDiaryViewController" id="Y6W-OH-hqX" customClass="KindergartensDiaryViewController" customModule="DD_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="KindergartensDiaryViewController" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
