@@ -369,50 +369,50 @@ Attendance Stack View</string>
             </objects>
             <point key="canvasLocation" x="2290.8396946564885" y="-35.211267605633807"/>
         </scene>
-        <!--ScheduleViewController-->
+        <!--UsersScheduleViewController-->
         <scene sceneID="lqL-eh-0j3">
             <objects>
-                <viewControllerPlaceholder storyboardName="Schedule" referencedIdentifier="ScheduleViewController" id="bjs-QZ-PZu" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="UsersSchedule" referencedIdentifier="UsersScheduleViewController" id="bjs-QZ-PZu" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="QVB-6h-0vm"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9i4-6J-ToZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3290" y="-326"/>
         </scene>
-        <!--AnnouncementViewController-->
+        <!--UsersAnnouncementViewController-->
         <scene sceneID="TWs-5N-miu">
             <objects>
-                <viewControllerPlaceholder storyboardName="Announcement" referencedIdentifier="AnnouncementViewController" id="AIi-Yc-enY" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="UsersAnnouncement" referencedIdentifier="UsersAnnouncementViewController" id="AIi-Yc-enY" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Xeg-9g-fuM"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ucP-62-Roq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3318" y="-216"/>
         </scene>
-        <!--TimetableViewController-->
+        <!--UsersTimetableViewController-->
         <scene sceneID="KYv-fQ-dC2">
             <objects>
-                <viewControllerPlaceholder storyboardName="Timetable" referencedIdentifier="TimetableViewController" id="JCU-Dm-uYm" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="UsersTimetable" referencedIdentifier="UsersTimetableViewController" id="JCU-Dm-uYm" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="L2F-HF-pLz"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ic-9J-MGC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3293" y="-120"/>
         </scene>
-        <!--AttendanceViewController-->
+        <!--UsersAttendanceViewController-->
         <scene sceneID="AFC-3C-ktj">
             <objects>
-                <viewControllerPlaceholder storyboardName="Attendance" referencedIdentifier="AttendanceViewController" id="s5z-8o-YB4" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="UsersAttendance" referencedIdentifier="UsersAttendanceViewController" id="s5z-8o-YB4" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="vyq-lB-C6a"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YJ7-R5-NCg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3301" y="-16"/>
         </scene>
-        <!--MedicationViewController-->
+        <!--UsersMedicationViewController-->
         <scene sceneID="lDZ-ia-jtp">
             <objects>
-                <viewControllerPlaceholder storyboardName="Medication" referencedIdentifier="MedicationViewController" id="Yim-R2-svz" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="UsersMedication" referencedIdentifier="UsersMedicationViewController" id="Yim-R2-svz" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Y7Y-pc-JM1"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tCS-ko-1Ce" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -1,5 +1,5 @@
 //
-//  AnnouncementViewController.swift
+//  TimetableViewController.swift
 //  DD-iOS
 //
 //  Created by zaehorang on 2023/09/10.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AnnouncementViewController: UIViewController {
+class UsersTimetableViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

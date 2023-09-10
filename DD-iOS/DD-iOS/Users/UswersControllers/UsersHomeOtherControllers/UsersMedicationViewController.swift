@@ -1,5 +1,5 @@
 //
-//  ScheduleViewController.swift
+//  MedicationViewController.swift
 //  DD-iOS
 //
 //  Created by zaehorang on 2023/09/10.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ScheduleViewController: UIViewController {
+class UsersMedicationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

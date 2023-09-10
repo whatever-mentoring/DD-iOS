@@ -1,5 +1,5 @@
 //
-//  TimetableViewController.swift
+//  ScheduleViewController.swift
 //  DD-iOS
 //
 //  Created by zaehorang on 2023/09/10.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TimetableViewController: UIViewController {
+class UsersScheduleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
