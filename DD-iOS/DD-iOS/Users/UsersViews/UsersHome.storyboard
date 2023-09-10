@@ -44,6 +44,9 @@
                                                                 </constraints>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" image="pngwing.com"/>
+                                                                <connections>
+                                                                    <segue destination="bjs-QZ-PZu" kind="show" id="Ovj-lJ-8Dc"/>
+                                                                </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="일정표" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="aAb-Fd-b2D">
                                                                 <rect key="frame" x="0.0" y="62.666666666666693" width="54.666666666666664" height="14.333333333333336"/>
@@ -65,6 +68,9 @@ Schedule Stack View</string>
                                                                 </constraints>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" image="pngwing.com"/>
+                                                                <connections>
+                                                                    <segue destination="AIi-Yc-enY" kind="show" id="SWQ-jk-fhB"/>
+                                                                </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="공지사항" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="DMh-LM-SzH">
                                                                 <rect key="frame" x="0.0" y="62.666666666666693" width="54.666666666666664" height="14.333333333333336"/>
@@ -86,6 +92,9 @@ Announcement Stack View</string>
                                                                 </constraints>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" image="pngwing.com"/>
+                                                                <connections>
+                                                                    <segue destination="JCU-Dm-uYm" kind="show" id="m21-Cq-laZ"/>
+                                                                </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="시간표" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FBC-kJ-p3L">
                                                                 <rect key="frame" x="0.0" y="62.666666666666693" width="54.333333333333336" height="14.333333333333336"/>
@@ -105,6 +114,9 @@ Announcement Stack View</string>
                                                                 </constraints>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" image="pngwing.com"/>
+                                                                <connections>
+                                                                    <segue destination="s5z-8o-YB4" kind="show" id="Atb-nY-mTx"/>
+                                                                </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="출석표" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="75l-sn-BI6">
                                                                 <rect key="frame" x="0.0" y="62.666666666666693" width="54.666666666666664" height="14.333333333333336"/>
@@ -126,6 +138,9 @@ Attendance Stack View</string>
                                                                 </constraints>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                 <state key="normal" image="pngwing.com"/>
+                                                                <connections>
+                                                                    <segue destination="Yim-R2-svz" kind="show" id="Fed-TO-cFe"/>
+                                                                </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="투약의뢰서" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pc7-Ga-cfj">
                                                                 <rect key="frame" x="0.0" y="62.666666666666693" width="54.666666666666664" height="14.333333333333336"/>
@@ -353,6 +368,56 @@ Attendance Stack View</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wYj-5m-N00" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2290.8396946564885" y="-35.211267605633807"/>
+        </scene>
+        <!--ScheduleViewController-->
+        <scene sceneID="lqL-eh-0j3">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Schedule" referencedIdentifier="ScheduleViewController" id="bjs-QZ-PZu" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="QVB-6h-0vm"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9i4-6J-ToZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3290" y="-326"/>
+        </scene>
+        <!--AnnouncementViewController-->
+        <scene sceneID="TWs-5N-miu">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Announcement" referencedIdentifier="AnnouncementViewController" id="AIi-Yc-enY" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Xeg-9g-fuM"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ucP-62-Roq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3318" y="-216"/>
+        </scene>
+        <!--TimetableViewController-->
+        <scene sceneID="KYv-fQ-dC2">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Timetable" referencedIdentifier="TimetableViewController" id="JCU-Dm-uYm" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="L2F-HF-pLz"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0ic-9J-MGC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3293" y="-120"/>
+        </scene>
+        <!--AttendanceViewController-->
+        <scene sceneID="AFC-3C-ktj">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Attendance" referencedIdentifier="AttendanceViewController" id="s5z-8o-YB4" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="vyq-lB-C6a"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YJ7-R5-NCg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3301" y="-16"/>
+        </scene>
+        <!--MedicationViewController-->
+        <scene sceneID="lDZ-ia-jtp">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Medication" referencedIdentifier="MedicationViewController" id="Yim-R2-svz" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Y7Y-pc-JM1"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tCS-ko-1Ce" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3298" y="95"/>
         </scene>
         <!--Home-->
         <scene sceneID="ARC-Ud-y0d">
