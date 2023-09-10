@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Users Schedule View Controller-->
+        <!--일정표-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
                 <viewController storyboardIdentifier="UsersScheduleViewController" id="Y6W-OH-hqX" customClass="UsersScheduleViewController" customModule="DD_iOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,6 +19,7 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="일정표" id="OOU-R1-l76"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

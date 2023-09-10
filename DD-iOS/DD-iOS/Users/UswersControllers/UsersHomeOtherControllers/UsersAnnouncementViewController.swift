@@ -16,7 +16,6 @@ class UsersAnnouncementViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         usersAnnouncementTableView.dataSource = self
-        
     }
     
 
