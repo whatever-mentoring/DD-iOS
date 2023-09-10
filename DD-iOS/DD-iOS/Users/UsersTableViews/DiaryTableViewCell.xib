@@ -12,27 +12,21 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="diaryCell" rowHeight="304" id="KGk-i7-Jjw" customClass="DiaryTableViewCell" customModule="DD_iOS" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="390" height="288"/>
+            <rect key="frame" x="0.0" y="0.0" width="390" height="500"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="390" height="288"/>
+                <rect key="frame" x="0.0" y="0.0" width="390" height="500"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NiR-cV-p4s">
-                        <rect key="frame" x="20" y="20" width="350" height="135"/>
+                        <rect key="frame" x="20" y="20" width="350" height="329"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="350" id="H4l-ZE-lbS"/>
-                            <constraint firstAttribute="height" constant="135" id="tTr-0K-G87"/>
+                            <constraint firstAttribute="height" constant="329" id="6Nh-D2-IS9"/>
+                            <constraint firstAttribute="width" constant="350" id="cwv-ty-X2O"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPe-Am-FH4">
-                        <rect key="frame" x="30" y="30" width="31" height="17"/>
-                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
-                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hR-1J-4WU">
-                        <rect key="frame" x="30" y="48" width="44" height="27"/>
+                        <rect key="frame" x="30" y="30" width="44" height="27"/>
                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <nil key="highlightedColor"/>
@@ -49,42 +43,48 @@
                             <imageReference key="image" image="ellipsis" catalog="system" symbolScale="medium"/>
                         </state>
                     </button>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iwe-Cm-6G0">
-                        <rect key="frame" x="30" y="173" width="330" height="100"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iwe-Cm-6G0">
+                        <rect key="frame" x="20" y="369" width="350" height="69"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="330" id="H4p-Nn-TFe"/>
-                            <constraint firstAttribute="height" constant="100" id="wTZ-UN-oW0"/>
+                            <constraint firstAttribute="height" constant="69" id="ka1-aD-NIu"/>
+                            <constraint firstAttribute="width" constant="350" id="wT4-s9-gCs"/>
                         </constraints>
                         <attributedString key="attributedText">
                             <fragment content="Details">
                                 <attributes>
-                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <font key="NSFont" metaFont="system" size="15"/>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" metaFont="system" size="14"/>
                                     <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.3" tighteningFactorForTruncation="0.0"/>
                                 </attributes>
                             </fragment>
                         </attributedString>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPe-Am-FH4">
+                        <rect key="frame" x="20" y="451" width="27" height="32"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
-                <color key="backgroundColor" red="0.14901961389999999" green="0.14901961389999999" blue="0.14901961389999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="iwe-Cm-6G0" secondAttribute="trailing" constant="30" id="8k1-5h-x6N"/>
+                    <constraint firstItem="0XG-cH-PXI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="5zP-hB-SOY"/>
+                    <constraint firstItem="pPe-Am-FH4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="6Uc-ao-h17"/>
+                    <constraint firstAttribute="bottom" secondItem="pPe-Am-FH4" secondAttribute="bottom" constant="17" id="6r0-Cd-KcX"/>
+                    <constraint firstItem="2hR-1J-4WU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="7Yw-Mi-Svs"/>
+                    <constraint firstItem="iwe-Cm-6G0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="BMM-Yj-p6w"/>
                     <constraint firstItem="NiR-cV-p4s" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Bzb-6E-fyq"/>
                     <constraint firstItem="NiR-cV-p4s" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="D0a-k9-ZaJ"/>
-                    <constraint firstAttribute="bottom" secondItem="iwe-Cm-6G0" secondAttribute="bottom" constant="15" id="EF4-72-izG"/>
-                    <constraint firstItem="iwe-Cm-6G0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="IL6-jQ-2Z9"/>
+                    <constraint firstItem="pPe-Am-FH4" firstAttribute="top" secondItem="iwe-Cm-6G0" secondAttribute="bottom" constant="13" id="GLN-1Q-c9K"/>
+                    <constraint firstItem="iwe-Cm-6G0" firstAttribute="top" secondItem="NiR-cV-p4s" secondAttribute="bottom" constant="20" id="Go0-SI-oJQ"/>
                     <constraint firstAttribute="trailing" secondItem="NiR-cV-p4s" secondAttribute="trailing" constant="20" id="LQh-b0-d0k"/>
                     <constraint firstItem="2hR-1J-4WU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="VyO-2G-kd9"/>
-                    <constraint firstItem="2hR-1J-4WU" firstAttribute="top" secondItem="pPe-Am-FH4" secondAttribute="bottom" constant="1" id="WoF-nw-fXC"/>
-                    <constraint firstItem="pPe-Am-FH4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="hK5-H4-Ok2"/>
-                    <constraint firstItem="0XG-cH-PXI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="kMs-lG-7s5"/>
-                    <constraint firstItem="pPe-Am-FH4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="snQ-7g-nBd"/>
-                    <constraint firstAttribute="trailing" secondItem="0XG-cH-PXI" secondAttribute="trailing" constant="30" id="vEg-Bt-kfF"/>
+                    <constraint firstAttribute="trailing" secondItem="0XG-cH-PXI" secondAttribute="trailing" constant="30" id="k7i-Pu-AD7"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
                 <outlet property="diaryDateLabel" destination="pPe-Am-FH4" id="ur8-8j-0cU"/>
                 <outlet property="diaryDetailButton" destination="0XG-cH-PXI" id="bZb-Zj-dgf"/>

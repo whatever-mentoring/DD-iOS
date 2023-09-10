@@ -17,7 +17,7 @@ class DiaryViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     // TableViewCell 높이 조절
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 288
+        return 500
     }
     
     // TableViewCell
@@ -39,7 +39,7 @@ class DiaryViewController: UIViewController, UITableViewDelegate, UITableViewDat
         let target = diaryList[indexPath.section]
         
         cell.diaryImage?.image = UIImage(named: target.diaryImage)
-        cell.diaryDateLabel?.text = target.diaryTitle
+        cell.diaryDateLabel?.text = target.diaryDate
         cell.diaryTitleLabel?.text = target.diaryTitle
         cell.diaryDetailLabel?.text = target.diaryDetail
         
