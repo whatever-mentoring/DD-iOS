@@ -34,6 +34,7 @@
 		F9AF788C2AAE9D4900DCA173 /* img3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F9AF78892AAE9D4900DCA173 /* img3.jpeg */; };
 		F9AF788D2AAE9D4900DCA173 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9AF788A2AAE9D4900DCA173 /* img1.jpg */; };
 		F9AF788F2AAE9F0900DCA173 /* diarylistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF788E2AAE9F0900DCA173 /* diarylistModel.swift */; };
+		F9B565332AAEE43D00E73ABB /* UsersDiaryAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B565322AAEE43D00E73ABB /* UsersDiaryAlarmViewController.swift */; };
 		F9C3D4CC2AA6B7B6006931FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C3D4CB2AA6B7B6006931FF /* AppDelegate.swift */; };
 		F9C3D4CE2AA6B7B6006931FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C3D4CD2AA6B7B6006931FF /* SceneDelegate.swift */; };
 		F9C3D4D32AA6B7B6006931FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C3D4D12AA6B7B6006931FF /* Main.storyboard */; };
@@ -69,6 +70,7 @@
 		F9AF78892AAE9D4900DCA173 /* img3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpeg; sourceTree = "<group>"; };
 		F9AF788A2AAE9D4900DCA173 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
 		F9AF788E2AAE9F0900DCA173 /* diarylistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diarylistModel.swift; sourceTree = "<group>"; };
+		F9B565322AAEE43D00E73ABB /* UsersDiaryAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDiaryAlarmViewController.swift; sourceTree = "<group>"; };
 		F9C3D4C82AA6B7B6006931FF /* DD-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DD-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C3D4CB2AA6B7B6006931FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9C3D4CD2AA6B7B6006931FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,9 +115,8 @@
 		26CDB8542AA9F54700D66C47 /* UsersControllers */ = {
 			isa = PBXGroup;
 			children = (
+				F9B565312AAEE3FA00E73ABB /* Diary */,
 				269BE0812AA981AE007059D0 /* UsersHomeViewController.swift */,
-				26FBEEF62AA97C3B0017D6D1 /* UsersDiaryViewController.swift */,
-				F93AB8B72AAB3E0500769150 /* UsersDiaryDetailViewController.swift */,
 				26FBEEF82AA97C480017D6D1 /* UsersCommunityViewController.swift */,
 				26FBEEFA2AA97C510017D6D1 /* UsersMyPageViewController.swift */,
 			);
@@ -188,6 +189,16 @@
 				F9AF788E2AAE9F0900DCA173 /* diarylistModel.swift */,
 			);
 			path = KindergartensTableViews;
+			sourceTree = "<group>";
+		};
+		F9B565312AAEE3FA00E73ABB /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				26FBEEF62AA97C3B0017D6D1 /* UsersDiaryViewController.swift */,
+				F93AB8B72AAB3E0500769150 /* UsersDiaryDetailViewController.swift */,
+				F9B565322AAEE43D00E73ABB /* UsersDiaryAlarmViewController.swift */,
+			);
+			path = Diary;
 			sourceTree = "<group>";
 		};
 		F9C3D4BF2AA6B7B6006931FF = {
@@ -318,6 +329,7 @@
 				26FBEEFB2AA97C510017D6D1 /* UsersMyPageViewController.swift in Sources */,
 				26CDB8612AA9FEDA00D66C47 /* KindergartensDiaryViewController.swift in Sources */,
 				F9C3D4CC2AA6B7B6006931FF /* AppDelegate.swift in Sources */,
+				F9B565332AAEE43D00E73ABB /* UsersDiaryAlarmViewController.swift in Sources */,
 				26FBEEF92AA97C480017D6D1 /* UsersCommunityViewController.swift in Sources */,
 				F9A022ED2AAAFB2200DA0F41 /* diaryModel.swift in Sources */,
 				26CDB85D2AA9FEA500D66C47 /* KindergartensMyPageViewController.swift in Sources */,

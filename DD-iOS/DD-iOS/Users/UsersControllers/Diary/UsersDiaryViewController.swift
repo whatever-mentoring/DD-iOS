@@ -11,6 +11,8 @@ class DiaryViewController: UIViewController, UITableViewDelegate, UITableViewDat
 
     @IBOutlet var DiaryTableView: UITableView!
     
+    
+    
     // data 불러오기
     let diaryList = Diary.data
     
@@ -61,6 +63,7 @@ class DiaryViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         DiaryTableView.delegate = self
         DiaryTableView.dataSource = self
+        
     }
     
     private func registerXib() {
