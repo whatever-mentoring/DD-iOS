@@ -13,7 +13,6 @@ class DiaryViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     // data 불러오기
     let diaryList = Diary.data
-    let cellSpacingHeight: CGFloat = 10
     
     // TableViewCell 높이 조절
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -49,6 +48,7 @@ class DiaryViewController: UIViewController, UITableViewDelegate, UITableViewDat
         return cell
     }
     
+    // TableView 데이터 전달 (화면 이동)
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "diaryDetailView", sender: nil)
     }
