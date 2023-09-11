@@ -187,9 +187,6 @@
                         <barButtonItem key="leftBarButtonItem" title="Item" id="3hQ-Bf-5LH">
                             <imageReference key="image" image="chevron.backward" catalog="system" symbolScale="medium"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <connections>
-                                <action selector="OnClick_Back_Button:" destination="StR-qg-W4C" id="foc-dV-Ms9"/>
-                            </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" id="nhf-kf-II6">
                             <imageReference key="image" image="bell.fill" catalog="system" symbolScale="medium"/>
@@ -208,12 +205,12 @@
             </objects>
             <point key="canvasLocation" x="2069.4656488549617" y="350"/>
         </scene>
-        <!--Diary-->
+        <!--일기-->
         <scene sceneID="e8c-sp-Y92">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gPh-Lb-3W3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController storyboardIdentifier="UsersDiaryViewController" automaticallyAdjustsScrollViewInsets="NO" id="9wv-Jw-KwS" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Diary" id="3Bs-8b-Pmp"/>
+                    <tabBarItem key="tabBarItem" title="일기" image="bookmark.fill" catalog="system" id="3Bs-8b-Pmp"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="rUw-pw-rWi">
@@ -232,6 +229,7 @@
     <resources>
         <image name="arrowtriangle.down.circle" catalog="system" width="128" height="123"/>
         <image name="bell.fill" catalog="system" width="123" height="128"/>
+        <image name="bookmark.fill" catalog="system" width="110" height="128"/>
         <image name="chevron.backward" catalog="system" width="97" height="128"/>
         <image name="circle.fill" catalog="system" width="128" height="123"/>
         <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
