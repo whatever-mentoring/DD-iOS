@@ -1,13 +1,13 @@
 //
-//  MyPageViewController.swift
+//  ScheduleViewController.swift
 //  DD-iOS
 //
-//  Created by zaehorang on 2023/09/07.
+//  Created by zaehorang on 2023/09/10.
 //
 
 import UIKit
 
-class UsersMyPageViewController: UIViewController {
+class UsersScheduleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

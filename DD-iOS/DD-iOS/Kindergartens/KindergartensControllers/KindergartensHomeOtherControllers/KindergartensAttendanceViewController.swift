@@ -1,13 +1,13 @@
 //
-//  MyPageViewController.swift
+//  KindergartensAttendanceViewController.swift
 //  DD-iOS
 //
-//  Created by zaehorang on 2023/09/07.
+//  Created by zaehorang on 2023/09/11.
 //
 
 import UIKit
 
-class UsersMyPageViewController: UIViewController {
+class KindergartensAttendanceViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
