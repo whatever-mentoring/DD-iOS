@@ -17,36 +17,39 @@
                 <rect key="frame" x="0.0" y="0.0" width="390" height="120"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WP4-YC-ILm">
-                        <rect key="frame" x="40" y="33" width="55" height="55"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="55" id="Zoi-wo-eq1"/>
-                            <constraint firstAttribute="width" constant="55" id="twx-7q-a1C"/>
-                        </constraints>
-                    </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="07U-mX-LSX">
-                        <rect key="frame" x="111" y="40" width="45" height="20"/>
+                        <rect key="frame" x="132" y="38" width="45" height="20"/>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQw-f2-ZLe">
-                        <rect key="frame" x="111" y="65" width="34" height="15"/>
+                        <rect key="frame" x="132" y="63" width="34" height="15"/>
                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WP4-YC-ILm">
+                        <rect key="frame" x="50" y="30" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="SXT-wf-jFM"/>
+                            <constraint firstAttribute="width" constant="60" id="Sxy-QL-ZxI"/>
+                        </constraints>
+                    </imageView>
                 </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
-                    <constraint firstItem="07U-mX-LSX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="40" id="CEv-Ni-qO4"/>
-                    <constraint firstItem="WP4-YC-ILm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="33" id="ldg-HX-xzV"/>
-                    <constraint firstItem="07U-mX-LSX" firstAttribute="leading" secondItem="WP4-YC-ILm" secondAttribute="trailing" constant="16" id="llm-BA-Pgb"/>
-                    <constraint firstItem="WP4-YC-ILm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="40" id="oAN-Ln-gbJ"/>
-                    <constraint firstItem="gQw-f2-ZLe" firstAttribute="leading" secondItem="WP4-YC-ILm" secondAttribute="trailing" constant="16" id="t1R-Q9-4IL"/>
-                    <constraint firstItem="gQw-f2-ZLe" firstAttribute="top" secondItem="07U-mX-LSX" secondAttribute="bottom" constant="5" id="ydM-dn-G3O"/>
+                    <constraint firstItem="WP4-YC-ILm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="2Zi-Ds-xIB"/>
+                    <constraint firstItem="gQw-f2-ZLe" firstAttribute="top" secondItem="07U-mX-LSX" secondAttribute="bottom" constant="5" id="2er-wa-tih"/>
+                    <constraint firstAttribute="bottom" secondItem="WP4-YC-ILm" secondAttribute="bottom" constant="30" id="Cdx-LS-8CZ"/>
+                    <constraint firstItem="07U-mX-LSX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="38" id="TSk-6h-EM5"/>
+                    <constraint firstItem="WP4-YC-ILm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="50" id="ZV1-xw-WJJ"/>
+                    <constraint firstItem="07U-mX-LSX" firstAttribute="leading" secondItem="WP4-YC-ILm" secondAttribute="trailing" constant="22" id="aih-1a-l9v"/>
+                    <constraint firstItem="gQw-f2-ZLe" firstAttribute="leading" secondItem="WP4-YC-ILm" secondAttribute="trailing" constant="22" id="dIt-Lk-xay"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" red="0.96078431610000004" green="0.96470588450000005" blue="0.97254902119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
             <connections>
                 <outlet property="diarySelectDetail" destination="gQw-f2-ZLe" id="xeK-hC-9k6"/>
                 <outlet property="diarySelectImage" destination="WP4-YC-ILm" id="gYK-vb-miW"/>

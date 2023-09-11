@@ -17,9 +17,9 @@ class DiarySelectTableViewCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        contentView.frame.inset(by: UIEdgeInsets(top: 10, left: 20, bottom: 10, right: 20))
+        contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 5, left: 20, bottom: 5, right: 20))
         
-        contentView.layer.cornerRadius = 8
+        contentView.layer.cornerRadius = 10
         
         diarySelectImage.layer.cornerRadius = 100
     }
