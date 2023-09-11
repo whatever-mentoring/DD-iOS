@@ -19,6 +19,16 @@
 		26023D3A2AAD9CF200743DDF /* UsersMedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26023D392AAD9CF200743DDF /* UsersMedicationViewController.swift */; };
 		26023D3E2AADC2EC00743DDF /* UsersAnnouncementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26023D3D2AADC2EC00743DDF /* UsersAnnouncementCell.swift */; };
 		26023D402AADCC9600743DDF /* Announcements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26023D3F2AADCC9600743DDF /* Announcements.swift */; };
+		26023D432AAEDBA400743DDF /* KindergartensAnnouncement.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26023D422AAEDBA400743DDF /* KindergartensAnnouncement.storyboard */; };
+		26023D452AAEDBAC00743DDF /* KindergartensSchedule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26023D442AAEDBAC00743DDF /* KindergartensSchedule.storyboard */; };
+		26023D472AAEDBB800743DDF /* KindergartensTimetable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26023D462AAEDBB800743DDF /* KindergartensTimetable.storyboard */; };
+		26023D492AAEDBC300743DDF /* KindergartensAttendance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26023D482AAEDBC300743DDF /* KindergartensAttendance.storyboard */; };
+		26023D4B2AAEDBCE00743DDF /* KindergartensMedication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26023D4A2AAEDBCE00743DDF /* KindergartensMedication.storyboard */; };
+		26023D4E2AAEDC2600743DDF /* KindergartensAnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26023D4D2AAEDC2600743DDF /* KindergartensAnnouncementViewController.swift */; };
+		26023D502AAEDC3500743DDF /* KindergartensScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26023D4F2AAEDC3500743DDF /* KindergartensScheduleViewController.swift */; };
+		26023D522AAEDC3F00743DDF /* KindergartensTimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26023D512AAEDC3F00743DDF /* KindergartensTimetableViewController.swift */; };
+		26023D542AAEDC4900743DDF /* KindergartensAttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26023D532AAEDC4900743DDF /* KindergartensAttendanceViewController.swift */; };
+		26023D562AAEDC5300743DDF /* KindergartensMedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26023D552AAEDC5300743DDF /* KindergartensMedicationViewController.swift */; };
 		269BE0802AA981A1007059D0 /* UsersHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269BE07F2AA981A1007059D0 /* UsersHome.storyboard */; };
 		269BE0822AA981AE007059D0 /* UsersHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269BE0812AA981AE007059D0 /* UsersHomeViewController.swift */; };
 		26CDB8562AA9FAE900D66C47 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB8552AA9FAE900D66C47 /* MainViewController.swift */; };
@@ -56,6 +66,16 @@
 		26023D392AAD9CF200743DDF /* UsersMedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersMedicationViewController.swift; sourceTree = "<group>"; };
 		26023D3D2AADC2EC00743DDF /* UsersAnnouncementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAnnouncementCell.swift; sourceTree = "<group>"; };
 		26023D3F2AADCC9600743DDF /* Announcements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announcements.swift; sourceTree = "<group>"; };
+		26023D422AAEDBA400743DDF /* KindergartensAnnouncement.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KindergartensAnnouncement.storyboard; sourceTree = "<group>"; };
+		26023D442AAEDBAC00743DDF /* KindergartensSchedule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KindergartensSchedule.storyboard; sourceTree = "<group>"; };
+		26023D462AAEDBB800743DDF /* KindergartensTimetable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KindergartensTimetable.storyboard; sourceTree = "<group>"; };
+		26023D482AAEDBC300743DDF /* KindergartensAttendance.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KindergartensAttendance.storyboard; sourceTree = "<group>"; };
+		26023D4A2AAEDBCE00743DDF /* KindergartensMedication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KindergartensMedication.storyboard; sourceTree = "<group>"; };
+		26023D4D2AAEDC2600743DDF /* KindergartensAnnouncementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindergartensAnnouncementViewController.swift; sourceTree = "<group>"; };
+		26023D4F2AAEDC3500743DDF /* KindergartensScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindergartensScheduleViewController.swift; sourceTree = "<group>"; };
+		26023D512AAEDC3F00743DDF /* KindergartensTimetableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindergartensTimetableViewController.swift; sourceTree = "<group>"; };
+		26023D532AAEDC4900743DDF /* KindergartensAttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindergartensAttendanceViewController.swift; sourceTree = "<group>"; };
+		26023D552AAEDC5300743DDF /* KindergartensMedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindergartensMedicationViewController.swift; sourceTree = "<group>"; };
 		269BE07F2AA981A1007059D0 /* UsersHome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UsersHome.storyboard; sourceTree = "<group>"; };
 		269BE0812AA981AE007059D0 /* UsersHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersHomeViewController.swift; sourceTree = "<group>"; };
 		26CDB8552AA9FAE900D66C47 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +146,30 @@
 			path = UsersAnnouncementViews;
 			sourceTree = "<group>";
 		};
+		26023D412AAEDAAF00743DDF /* KindergartensHomeOtherViews */ = {
+			isa = PBXGroup;
+			children = (
+				26023D422AAEDBA400743DDF /* KindergartensAnnouncement.storyboard */,
+				26023D442AAEDBAC00743DDF /* KindergartensSchedule.storyboard */,
+				26023D462AAEDBB800743DDF /* KindergartensTimetable.storyboard */,
+				26023D482AAEDBC300743DDF /* KindergartensAttendance.storyboard */,
+				26023D4A2AAEDBCE00743DDF /* KindergartensMedication.storyboard */,
+			);
+			path = KindergartensHomeOtherViews;
+			sourceTree = "<group>";
+		};
+		26023D4C2AAEDBE200743DDF /* KindergartensHomeOtherControllers */ = {
+			isa = PBXGroup;
+			children = (
+				26023D4D2AAEDC2600743DDF /* KindergartensAnnouncementViewController.swift */,
+				26023D4F2AAEDC3500743DDF /* KindergartensScheduleViewController.swift */,
+				26023D512AAEDC3F00743DDF /* KindergartensTimetableViewController.swift */,
+				26023D532AAEDC4900743DDF /* KindergartensAttendanceViewController.swift */,
+				26023D552AAEDC5300743DDF /* KindergartensMedicationViewController.swift */,
+			);
+			path = KindergartensHomeOtherControllers;
+			sourceTree = "<group>";
+		};
 		26CDB8502AA9F49E00D66C47 /* Users */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +207,7 @@
 		26CDB8592AA9FD8100D66C47 /* KindergartensControllers */ = {
 			isa = PBXGroup;
 			children = (
+				26023D4C2AAEDBE200743DDF /* KindergartensHomeOtherControllers */,
 				26CDB8622AA9FF3400D66C47 /* KindergartensHomeViewController.swift */,
 				26CDB8602AA9FEDA00D66C47 /* KindergartensDiaryViewController.swift */,
 				26CDB85E2AA9FEC400D66C47 /* KindergartensCommunityViewController.swift */,
@@ -175,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				26CDB86A2AA9FF9F00D66C47 /* KindergartensHome.storyboard */,
+				26023D412AAEDAAF00743DDF /* KindergartensHomeOtherViews */,
 				26CDB8682AA9FF8000D66C47 /* KindergartensDiary.storyboard */,
 				26CDB8662AA9FF6F00D66C47 /* KindergartensCommunity.storyboard */,
 				26CDB8642AA9FF5D00D66C47 /* KindergartensMyPage.storyboard */,
@@ -289,19 +335,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26023D432AAEDBA400743DDF /* KindergartensAnnouncement.storyboard in Resources */,
 				26CDB86B2AA9FF9F00D66C47 /* KindergartensHome.storyboard in Resources */,
 				269BE0802AA981A1007059D0 /* UsersHome.storyboard in Resources */,
 				26023D2E2AAD9CA200743DDF /* UsersAttendance.storyboard in Resources */,
+				26023D452AAEDBAC00743DDF /* KindergartensSchedule.storyboard in Resources */,
 				26CDB8652AA9FF5D00D66C47 /* KindergartensMyPage.storyboard in Resources */,
 				26CDB8692AA9FF8000D66C47 /* KindergartensDiary.storyboard in Resources */,
 				26F0D5372AA977F900DF335B /* UsersDiary.storyboard in Resources */,
+				26023D4B2AAEDBCE00743DDF /* KindergartensMedication.storyboard in Resources */,
 				26F0D53B2AA9782800DF335B /* UsersMyPage.storyboard in Resources */,
+				26023D492AAEDBC300743DDF /* KindergartensAttendance.storyboard in Resources */,
 				F9C3D4D82AA6B7B7006931FF /* LaunchScreen.storyboard in Resources */,
 				F9C3D4D52AA6B7B7006931FF /* Assets.xcassets in Resources */,
 				26023D302AAD9CB000743DDF /* UsersMedication.storyboard in Resources */,
 				26F0D5392AA9780D00DF335B /* UsersCommunity.storyboard in Resources */,
 				F9C3D4D32AA6B7B6006931FF /* Main.storyboard in Resources */,
 				26023D2A2AAD9C6400743DDF /* UsersAnnouncement.storyboard in Resources */,
+				26023D472AAEDBB800743DDF /* KindergartensTimetable.storyboard in Resources */,
 				26CDB8672AA9FF6F00D66C47 /* KindergartensCommunity.storyboard in Resources */,
 				26023D2C2AAD9C9A00743DDF /* UsersTimetable.storyboard in Resources */,
 				26023D282AAD9C5700743DDF /* UsersSchedule.storyboard in Resources */,
@@ -320,8 +371,11 @@
 				26CDB8632AA9FF3400D66C47 /* KindergartensHomeViewController.swift in Sources */,
 				26CDB85F2AA9FEC400D66C47 /* KindergartensCommunityViewController.swift in Sources */,
 				26023D322AAD9CC800743DDF /* UsersScheduleViewController.swift in Sources */,
+				26023D502AAEDC3500743DDF /* KindergartensScheduleViewController.swift in Sources */,
 				26023D3A2AAD9CF200743DDF /* UsersMedicationViewController.swift in Sources */,
+				26023D4E2AAEDC2600743DDF /* KindergartensAnnouncementViewController.swift in Sources */,
 				26FBEEF72AA97C3B0017D6D1 /* UsersDiaryViewController.swift in Sources */,
+				26023D562AAEDC5300743DDF /* KindergartensMedicationViewController.swift in Sources */,
 				26FBEEFB2AA97C510017D6D1 /* UsersMyPageViewController.swift in Sources */,
 				26023D402AADCC9600743DDF /* Announcements.swift in Sources */,
 				26CDB8612AA9FEDA00D66C47 /* KindergartensDiaryViewController.swift in Sources */,
@@ -333,6 +387,8 @@
 				26CDB85D2AA9FEA500D66C47 /* KindergartensMyPageViewController.swift in Sources */,
 				269BE0822AA981AE007059D0 /* UsersHomeViewController.swift in Sources */,
 				F9C3D4CE2AA6B7B6006931FF /* SceneDelegate.swift in Sources */,
+				26023D522AAEDC3F00743DDF /* KindergartensTimetableViewController.swift in Sources */,
+				26023D542AAEDC4900743DDF /* KindergartensAttendanceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

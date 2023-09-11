@@ -1,18 +1,18 @@
 //
-//  KindergartensHomeViewController.swift
+//  KindergartensScheduleViewController.swift
 //  DD-iOS
 //
-//  Created by zaehorang on 2023/09/07.
+//  Created by zaehorang on 2023/09/11.
 //
 
 import UIKit
 
-class KindergartensHomeViewController: UIViewController {
+class KindergartensScheduleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.navigationItem.title = "멍뭉일기"
+        // Do any additional setup after loading the view.
     }
     
 
