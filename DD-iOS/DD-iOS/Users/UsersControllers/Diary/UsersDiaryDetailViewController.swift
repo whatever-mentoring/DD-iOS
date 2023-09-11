@@ -12,6 +12,7 @@ class DiaryDetailViewController: UIViewController {
     var diaryData: Diary?
     
     @IBOutlet var detailBackButton: UIBarButtonItem!
+    
     @IBOutlet var diarydetailDetailLabel: UILabel!
     @IBOutlet var diarydetailTitleLabel: UILabel!
     @IBOutlet var diarydetailDateLabel: UILabel!
@@ -21,8 +22,8 @@ class DiaryDetailViewController: UIViewController {
         super.viewDidLoad()
 
     }
-
     @IBAction func OnClick_Back_Button(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }
+
 }

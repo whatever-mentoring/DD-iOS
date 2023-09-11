@@ -12,7 +12,14 @@ class DiaryViewController: UIViewController, UITableViewDelegate, UITableViewDat
     @IBOutlet var DiaryTableView: UITableView!
     
     
+    // Date Picker 설정
     
+    
+   
+    
+    
+    // TableView 설정
+    // ------------
     // data 불러오기
     let diaryList = Diary.data
     
@@ -56,6 +63,12 @@ class DiaryViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     
+    private func registerXib() {
+        let nibName = UINib(nibName: cellName, bundle: nil)
+        DiaryTableView.register(nibName, forCellReuseIdentifier: cellReuseIdentifire)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -64,11 +77,6 @@ class DiaryViewController: UIViewController, UITableViewDelegate, UITableViewDat
         DiaryTableView.delegate = self
         DiaryTableView.dataSource = self
         
-    }
-    
-    private func registerXib() {
-        let nibName = UINib(nibName: cellName, bundle: nil)
-        DiaryTableView.register(nibName, forCellReuseIdentifier: cellReuseIdentifire)
     }
     
 }

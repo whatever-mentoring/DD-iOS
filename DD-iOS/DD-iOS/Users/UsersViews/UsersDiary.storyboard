@@ -69,6 +69,8 @@
                     </navigationItem>
                     <connections>
                         <outlet property="DiaryTableView" destination="GFU-iY-OPk" id="E1b-nu-pzJ"/>
+                        <outlet property="diaryDateButton" destination="lf3-cT-zWm" id="FME-ev-poP"/>
+                        <outlet property="diaryDateLabel" destination="PcA-WP-Zu8" id="rrU-0c-Rat"/>
                         <segue destination="StR-qg-W4C" kind="show" identifier="diaryDetailView" id="23U-XP-na2"/>
                     </connections>
                 </viewController>
@@ -187,6 +189,9 @@
                         <barButtonItem key="leftBarButtonItem" title="Item" id="3hQ-Bf-5LH">
                             <imageReference key="image" image="chevron.backward" catalog="system" symbolScale="medium"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="OnClick_Back_Button:" destination="StR-qg-W4C" id="aNq-Lv-Uq7"/>
+                            </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" id="nhf-kf-II6">
                             <imageReference key="image" image="bell.fill" catalog="system" symbolScale="medium"/>
