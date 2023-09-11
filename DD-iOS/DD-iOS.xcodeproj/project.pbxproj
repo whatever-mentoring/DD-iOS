@@ -195,7 +195,6 @@
 			children = (
 				F9A022E72AAAF5F500DA0F41 /* UsersTableViews */,
 				26023D3F2AADCC9600743DDF /* Announcements.swift */,
-				26CDB8542AA9F54700D66C47 /* UswersControllers */,
 				26CDB8532AA9F53100D66C47 /* UsersViews */,
 				26CDB8542AA9F54700D66C47 /* UsersControllers */,
 			);
@@ -283,6 +282,9 @@
 		F9A022EE2AAAFBF200DA0F41 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				F9AF78892AAE9D4900DCA173 /* img3.jpeg */,
+				F9AF788A2AAE9D4900DCA173 /* img1.jpg */,
+				F9AF78882AAE9D4900DCA173 /* img2.webp */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -316,9 +318,6 @@
 		F9C3D4CA2AA6B7B6006931FF /* DD-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F9AF788A2AAE9D4900DCA173 /* img1.jpg */,
-				F9AF78882AAE9D4900DCA173 /* img2.webp */,
-				F9AF78892AAE9D4900DCA173 /* img3.jpeg */,
 				F9A022EE2AAAFBF200DA0F41 /* Image */,
 				F9C3D4CB2AA6B7B6006931FF /* AppDelegate.swift */,
 				F9C3D4CD2AA6B7B6006931FF /* SceneDelegate.swift */,
