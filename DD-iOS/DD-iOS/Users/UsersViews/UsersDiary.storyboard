@@ -13,7 +13,7 @@
         <!--일기-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" customClass="DiaryViewController" customModule="DD_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="UsersDiaryViewController" customModule="DD_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,7 +92,7 @@
         <!--알림-->
         <scene sceneID="CdN-DI-6lJ">
             <objects>
-                <viewController id="pzW-kT-1XL" customClass="UsersDiaryAlarmViewController" customModule="DD_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="pzW-kT-1XL" customClass="UserDiaryAlarmViewController" customModule="DD_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MqR-5r-OCj">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -119,7 +119,7 @@
         <!--일기-->
         <scene sceneID="eCw-j4-zq8">
             <objects>
-                <viewController id="StR-qg-W4C" customClass="DiaryDetailViewController" customModule="DD_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="StR-qg-W4C" customClass="UsersDiaryDetailViewController" customModule="DD_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="le8-Co-LdP">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
