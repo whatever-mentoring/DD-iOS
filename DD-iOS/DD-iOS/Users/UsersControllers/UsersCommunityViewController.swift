@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CommunityViewController: UIViewController {
+class UsersCommunityViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
