@@ -17,11 +17,11 @@ class DiarySelectTableViewCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 5, left: 20, bottom: 5, right: 20))
+        contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 5, left: 15, bottom: 5, right: 15))
         
         contentView.layer.cornerRadius = 10
         
-        diarySelectImage.layer.cornerRadius = 100
+        diarySelectImage.layer.cornerRadius = 40
     }
     
     override func awakeFromNib() {
