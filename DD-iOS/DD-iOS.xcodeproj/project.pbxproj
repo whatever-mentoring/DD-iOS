@@ -43,10 +43,8 @@
 		26F0D5372AA977F900DF335B /* UsersDiary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F0D5362AA977F900DF335B /* UsersDiary.storyboard */; };
 		26F0D5392AA9780D00DF335B /* UsersCommunity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F0D5382AA9780D00DF335B /* UsersCommunity.storyboard */; };
 		26F0D53B2AA9782800DF335B /* UsersMyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F0D53A2AA9782800DF335B /* UsersMyPage.storyboard */; };
-		26FBEEF72AA97C3B0017D6D1 /* UsersDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBEEF62AA97C3B0017D6D1 /* UsersDiaryViewController.swift */; };
 		26FBEEF92AA97C480017D6D1 /* UsersCommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBEEF82AA97C480017D6D1 /* UsersCommunityViewController.swift */; };
 		26FBEEFB2AA97C510017D6D1 /* UsersMyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBEEFA2AA97C510017D6D1 /* UsersMyPageViewController.swift */; };
-		F93AB8B82AAB3E0500769150 /* UsersDiaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93AB8B72AAB3E0500769150 /* UsersDiaryDetailViewController.swift */; };
 		F9A022EA2AAAF60F00DA0F41 /* DiaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A022E82AAAF60F00DA0F41 /* DiaryTableViewCell.swift */; };
 		F9A022EB2AAAF60F00DA0F41 /* DiaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9A022E92AAAF60F00DA0F41 /* DiaryTableViewCell.xib */; };
 		F9A022ED2AAAFB2200DA0F41 /* diaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A022EC2AAAFB2200DA0F41 /* diaryModel.swift */; };
@@ -61,6 +59,9 @@
 		F9C3D4D32AA6B7B6006931FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C3D4D12AA6B7B6006931FF /* Main.storyboard */; };
 		F9C3D4D52AA6B7B7006931FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C3D4D42AA6B7B7006931FF /* Assets.xcassets */; };
 		F9C3D4D82AA6B7B7006931FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C3D4D62AA6B7B7006931FF /* LaunchScreen.storyboard */; };
+		F9FC4B222AAFFB2C00C9E38D /* UsersDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC4B212AAFFB2C00C9E38D /* UsersDiaryViewController.swift */; };
+		F9FC4B242AAFFB4100C9E38D /* UsersDiaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC4B232AAFFB4100C9E38D /* UsersDiaryDetailViewController.swift */; };
+		F9FC4B262AAFFB4F00C9E38D /* UsersDiaryAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC4B252AAFFB4F00C9E38D /* UsersDiaryAlarmViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,10 +101,8 @@
 		26F0D5362AA977F900DF335B /* UsersDiary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UsersDiary.storyboard; sourceTree = "<group>"; };
 		26F0D5382AA9780D00DF335B /* UsersCommunity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UsersCommunity.storyboard; sourceTree = "<group>"; };
 		26F0D53A2AA9782800DF335B /* UsersMyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UsersMyPage.storyboard; sourceTree = "<group>"; };
-		26FBEEF62AA97C3B0017D6D1 /* UsersDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDiaryViewController.swift; sourceTree = "<group>"; };
 		26FBEEF82AA97C480017D6D1 /* UsersCommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCommunityViewController.swift; sourceTree = "<group>"; };
 		26FBEEFA2AA97C510017D6D1 /* UsersMyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersMyPageViewController.swift; sourceTree = "<group>"; };
-		F93AB8B72AAB3E0500769150 /* UsersDiaryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDiaryDetailViewController.swift; sourceTree = "<group>"; };
 		F9A022E82AAAF60F00DA0F41 /* DiaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewCell.swift; sourceTree = "<group>"; };
 		F9A022E92AAAF60F00DA0F41 /* DiaryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiaryTableViewCell.xib; sourceTree = "<group>"; };
 		F9A022EC2AAAFB2200DA0F41 /* diaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diaryModel.swift; sourceTree = "<group>"; };
@@ -120,6 +119,9 @@
 		F9C3D4D42AA6B7B7006931FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9C3D4D72AA6B7B7006931FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9C3D4D92AA6B7B7006931FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9FC4B212AAFFB2C00C9E38D /* UsersDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDiaryViewController.swift; sourceTree = "<group>"; };
+		F9FC4B232AAFFB4100C9E38D /* UsersDiaryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDiaryDetailViewController.swift; sourceTree = "<group>"; };
+		F9FC4B252AAFFB4F00C9E38D /* UsersDiaryAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDiaryAlarmViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,8 +220,8 @@
 			children = (
 				269BE0812AA981AE007059D0 /* UsersHomeViewController.swift */,
 				26023D262AAD9C1300743DDF /* UsersHomeOtherControllers */,
-				26FBEEF62AA97C3B0017D6D1 /* UsersDiaryViewController.swift */,
-				F93AB8B72AAB3E0500769150 /* UsersDiaryDetailViewController.swift */,
+				F9FC4B212AAFFB2C00C9E38D /* UsersDiaryViewController.swift */,
+				F9FC4B202AAFFAE500C9E38D /* UsersDiaryOtherControllers */,
 				26FBEEF82AA97C480017D6D1 /* UsersCommunityViewController.swift */,
 				26FBEEFA2AA97C510017D6D1 /* UsersMyPageViewController.swift */,
 			);
@@ -331,6 +333,15 @@
 			path = "DD-iOS";
 			sourceTree = "<group>";
 		};
+		F9FC4B202AAFFAE500C9E38D /* UsersDiaryOtherControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F9FC4B232AAFFB4100C9E38D /* UsersDiaryDetailViewController.swift */,
+				F9FC4B252AAFFB4F00C9E38D /* UsersDiaryAlarmViewController.swift */,
+			);
+			path = UsersDiaryOtherControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -434,11 +445,11 @@
 				26023D502AAEDC3500743DDF /* KindergartensScheduleViewController.swift in Sources */,
 				26023D3A2AAD9CF200743DDF /* UsersMedicationViewController.swift in Sources */,
 				26023D4E2AAEDC2600743DDF /* KindergartensAnnouncementViewController.swift in Sources */,
-				26FBEEF72AA97C3B0017D6D1 /* UsersDiaryViewController.swift in Sources */,
 				F9AF788F2AAE9F0900DCA173 /* diarylistModel.swift in Sources */,
 				26023D562AAEDC5300743DDF /* KindergartensMedicationViewController.swift in Sources */,
 				26FBEEFB2AA97C510017D6D1 /* UsersMyPageViewController.swift in Sources */,
 				26023D402AADCC9600743DDF /* Announcements.swift in Sources */,
+				F9FC4B222AAFFB2C00C9E38D /* UsersDiaryViewController.swift in Sources */,
 				26CDB8612AA9FEDA00D66C47 /* KindergartensDiaryViewController.swift in Sources */,
 				F9C3D4CC2AA6B7B6006931FF /* AppDelegate.swift in Sources */,
 				26FBEEF92AA97C480017D6D1 /* UsersCommunityViewController.swift in Sources */,
@@ -449,9 +460,10 @@
 				26CDB85D2AA9FEA500D66C47 /* KindergartensMyPageViewController.swift in Sources */,
 				269BE0822AA981AE007059D0 /* UsersHomeViewController.swift in Sources */,
 				F9C3D4CE2AA6B7B6006931FF /* SceneDelegate.swift in Sources */,
-				F93AB8B82AAB3E0500769150 /* UsersDiaryDetailViewController.swift in Sources */,
+				F9FC4B242AAFFB4100C9E38D /* UsersDiaryDetailViewController.swift in Sources */,
 				F9A022EA2AAAF60F00DA0F41 /* DiaryTableViewCell.swift in Sources */,
 				26023D522AAEDC3F00743DDF /* KindergartensTimetableViewController.swift in Sources */,
+				F9FC4B262AAFFB4F00C9E38D /* UsersDiaryAlarmViewController.swift in Sources */,
 				26023D542AAEDC4900743DDF /* KindergartensAttendanceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
