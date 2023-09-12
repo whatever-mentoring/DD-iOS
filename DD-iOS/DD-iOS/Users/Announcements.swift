@@ -5,12 +5,13 @@
 //  Created by zaehorang on 2023/09/10.
 //
 
-import Foundation
+import UIKit
 
 struct announcement {
     var announcementTitle: String
-    var announcementBody: String
+    var announcementDescription: String
     var announcementDate: Date
+    var announcementImage: UIImage?
     
     var announcementDateString: String {
         let myFormatter = DateFormatter()
