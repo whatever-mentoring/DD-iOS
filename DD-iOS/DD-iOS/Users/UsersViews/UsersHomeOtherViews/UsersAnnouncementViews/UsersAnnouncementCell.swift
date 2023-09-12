@@ -11,7 +11,7 @@ class UsersAnnouncementCell: UITableViewCell {
 
     
     @IBOutlet weak var usersAnnouncementTitleLabel: UILabel!
-    @IBOutlet weak var usersAnnouncementBodyLabel: UILabel!
+    @IBOutlet weak var usersAnnouncementDescriptionLabel: UILabel!
     @IBOutlet weak var usersAnnouncementDateLabel: UILabel!
     
     

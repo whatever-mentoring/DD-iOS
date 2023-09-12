@@ -29,6 +29,7 @@
 		26023D522AAEDC3F00743DDF /* KindergartensTimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26023D512AAEDC3F00743DDF /* KindergartensTimetableViewController.swift */; };
 		26023D542AAEDC4900743DDF /* KindergartensAttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26023D532AAEDC4900743DDF /* KindergartensAttendanceViewController.swift */; };
 		26023D562AAEDC5300743DDF /* KindergartensMedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26023D552AAEDC5300743DDF /* KindergartensMedicationViewController.swift */; };
+		260765B72AB0BB33002C9776 /* UsersAnnouncementDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260765B62AB0BB33002C9776 /* UsersAnnouncementDetailViewController.swift */; };
 		269BE0802AA981A1007059D0 /* UsersHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269BE07F2AA981A1007059D0 /* UsersHome.storyboard */; };
 		269BE0822AA981AE007059D0 /* UsersHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269BE0812AA981AE007059D0 /* UsersHomeViewController.swift */; };
 		26CDB8562AA9FAE900D66C47 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB8552AA9FAE900D66C47 /* MainViewController.swift */; };
@@ -87,6 +88,7 @@
 		26023D512AAEDC3F00743DDF /* KindergartensTimetableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindergartensTimetableViewController.swift; sourceTree = "<group>"; };
 		26023D532AAEDC4900743DDF /* KindergartensAttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindergartensAttendanceViewController.swift; sourceTree = "<group>"; };
 		26023D552AAEDC5300743DDF /* KindergartensMedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindergartensMedicationViewController.swift; sourceTree = "<group>"; };
+		260765B62AB0BB33002C9776 /* UsersAnnouncementDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAnnouncementDetailViewController.swift; sourceTree = "<group>"; };
 		269BE07F2AA981A1007059D0 /* UsersHome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UsersHome.storyboard; sourceTree = "<group>"; };
 		269BE0812AA981AE007059D0 /* UsersHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersHomeViewController.swift; sourceTree = "<group>"; };
 		26CDB8552AA9FAE900D66C47 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -150,8 +152,8 @@
 		26023D262AAD9C1300743DDF /* UsersHomeOtherControllers */ = {
 			isa = PBXGroup;
 			children = (
+				260765B52AB0BAA2002C9776 /* UsersAnnouncementControllers */,
 				26023D312AAD9CC800743DDF /* UsersScheduleViewController.swift */,
-				26023D332AAD9CD200743DDF /* UsersAnnouncementViewController.swift */,
 				26023D352AAD9CDD00743DDF /* UsersTimetableViewController.swift */,
 				26023D372AAD9CE700743DDF /* UsersAttendanceViewController.swift */,
 				26023D392AAD9CF200743DDF /* UsersMedicationViewController.swift */,
@@ -190,6 +192,15 @@
 				26023D552AAEDC5300743DDF /* KindergartensMedicationViewController.swift */,
 			);
 			path = KindergartensHomeOtherControllers;
+			sourceTree = "<group>";
+		};
+		260765B52AB0BAA2002C9776 /* UsersAnnouncementControllers */ = {
+			isa = PBXGroup;
+			children = (
+				26023D332AAD9CD200743DDF /* UsersAnnouncementViewController.swift */,
+				260765B62AB0BB33002C9776 /* UsersAnnouncementDetailViewController.swift */,
+			);
+			path = UsersAnnouncementControllers;
 			sourceTree = "<group>";
 		};
 		26CDB8502AA9F49E00D66C47 /* Users */ = {
@@ -449,6 +460,7 @@
 				26023D562AAEDC5300743DDF /* KindergartensMedicationViewController.swift in Sources */,
 				26FBEEFB2AA97C510017D6D1 /* UsersMyPageViewController.swift in Sources */,
 				26023D402AADCC9600743DDF /* Announcements.swift in Sources */,
+				260765B72AB0BB33002C9776 /* UsersAnnouncementDetailViewController.swift in Sources */,
 				F9FC4B222AAFFB2C00C9E38D /* UsersDiaryViewController.swift in Sources */,
 				26CDB8612AA9FEDA00D66C47 /* KindergartensDiaryViewController.swift in Sources */,
 				F9C3D4CC2AA6B7B6006931FF /* AppDelegate.swift in Sources */,
