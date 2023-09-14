@@ -101,7 +101,7 @@
                         <rightBarButtonItems>
                             <barButtonItem title="plus" image="plus" catalog="system" id="JaI-dz-rMS">
                                 <connections>
-                                    <segue destination="LBB-s5-q1f" kind="show" id="JY5-ns-Jee"/>
+                                    <segue destination="r8i-eT-2ao" kind="presentation" modalPresentationStyle="fullScreen" id="4bU-4Y-nMd"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem title="search" image="magnifyingglass" catalog="system" id="yEi-fu-1BI"/>
@@ -118,20 +118,32 @@
             <point key="canvasLocation" x="1979.3893129770991" y="-34.507042253521128"/>
         </scene>
         <!--Kindergartens Create Announcement View Controller-->
-        <scene sceneID="X4u-lh-huL">
+        <scene sceneID="nv2-xO-ZCZ">
             <objects>
-                <viewController id="LBB-s5-q1f" customClass="KindergartensCreateAnnouncementViewController" customModule="DD_iOS" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tKS-Ma-PU1">
+                <viewController id="r8i-eT-2ao" customClass="KindergartensCreateAnnouncementViewController" customModule="DD_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U5H-oa-saF">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="zuU-oQ-gmM"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8uJ-8O-G2G">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dP9-6d-oGK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8uJ-8O-G2G" firstAttribute="leading" secondItem="dP9-6d-oGK" secondAttribute="leading" id="BEc-rd-KKW"/>
+                            <constraint firstItem="8uJ-8O-G2G" firstAttribute="top" secondItem="dP9-6d-oGK" secondAttribute="top" id="jNE-3M-z4w"/>
+                            <constraint firstItem="8uJ-8O-G2G" firstAttribute="trailing" secondItem="dP9-6d-oGK" secondAttribute="trailing" id="wqR-qk-akg"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Gq9-q1-p3v"/>
+                    <connections>
+                        <outlet property="kindergartensCreateNaviBar" destination="8uJ-8O-G2G" id="Lpk-iE-U3D"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IbW-dE-1m2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xdl-eE-Sts" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3203" y="-475"/>
+            <point key="canvasLocation" x="3185" y="-499"/>
         </scene>
         <!--공지사항-->
         <scene sceneID="Uy0-hf-BWy">
