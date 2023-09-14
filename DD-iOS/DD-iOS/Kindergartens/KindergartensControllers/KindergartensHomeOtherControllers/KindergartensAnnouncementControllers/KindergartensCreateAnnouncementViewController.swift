@@ -1,13 +1,13 @@
 //
-//  KindergartensAnnouncementViewController.swift
+//  KindergartensCreateAnnouncementViewController.swift
 //  DD-iOS
 //
-//  Created by zaehorang on 2023/09/11.
+//  Created by zaehorang on 2023/09/13.
 //
 
 import UIKit
 
-class KindergartensAnnouncementViewController: UIViewController {
+class KindergartensCreateAnnouncementViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
