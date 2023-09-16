@@ -16,7 +16,7 @@ class KindergartensDiaryViewController: UIViewController, UITableViewDelegate, U
 
     // TableViewCell 높이 조절
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 120
+        return 110
     }
     
     // TableViewCell

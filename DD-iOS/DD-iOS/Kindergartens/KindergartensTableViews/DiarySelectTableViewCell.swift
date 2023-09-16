@@ -19,9 +19,9 @@ class DiarySelectTableViewCell: UITableViewCell {
         
         contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 5, left: 15, bottom: 5, right: 15))
         
-        contentView.layer.cornerRadius = 10
+        contentView.layer.cornerRadius = 8
         
-        diarySelectImage.layer.cornerRadius = 40
+        diarySelectImage.layer.cornerRadius = 35
     }
     
     override func awakeFromNib() {

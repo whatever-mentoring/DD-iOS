@@ -26,7 +26,7 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hR-1J-4WU">
-                        <rect key="frame" x="29.999999999999996" y="30" width="48.666666666666657" height="30.333333333333329"/>
+                        <rect key="frame" x="35" y="35" width="48.666666666666657" height="30.333333333333329"/>
                         <attributedString key="attributedText">
                             <fragment content="Title">
                                 <attributes>
@@ -39,7 +39,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0XG-cH-PXI">
-                        <rect key="frame" x="340" y="30" width="20" height="20"/>
+                        <rect key="frame" x="335" y="40" width="20" height="20"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="Ae1-mV-jPt"/>
                             <constraint firstAttribute="width" constant="20" id="smV-1F-X9a"/>
@@ -47,20 +47,20 @@
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                         <state key="normal">
-                            <imageReference key="image" image="ellipsis" catalog="system" symbolScale="medium"/>
+                            <imageReference key="image" image="DotThree" symbolScale="medium"/>
                         </state>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iwe-Cm-6G0">
-                        <rect key="frame" x="20" y="369" width="350" height="69"/>
+                        <rect key="frame" x="20" y="348" width="350" height="85"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="69" id="ka1-aD-NIu"/>
-                            <constraint firstAttribute="width" constant="350" id="wT4-s9-gCs"/>
+                            <constraint firstAttribute="width" constant="350" id="93f-im-JT7"/>
+                            <constraint firstAttribute="height" constant="85" id="lje-J1-ReG"/>
                         </constraints>
                         <attributedString key="attributedText">
                             <fragment content="Details">
                                 <attributes>
                                     <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <font key="NSFont" metaFont="system" size="14"/>
+                                    <font key="NSFont" metaFont="system" size="16"/>
                                     <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.3" tighteningFactorForTruncation="0.0"/>
                                 </attributes>
                             </fragment>
@@ -68,26 +68,30 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPe-Am-FH4">
-                        <rect key="frame" x="20" y="451" width="27" height="32"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <rect key="frame" x="20" y="441" width="350" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="350" id="9Y8-FS-c6G"/>
+                            <constraint firstAttribute="height" constant="32" id="y08-wR-fN9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
-                    <constraint firstItem="0XG-cH-PXI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="5zP-hB-SOY"/>
-                    <constraint firstItem="pPe-Am-FH4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="6Uc-ao-h17"/>
-                    <constraint firstAttribute="bottom" secondItem="pPe-Am-FH4" secondAttribute="bottom" constant="17" id="6r0-Cd-KcX"/>
-                    <constraint firstItem="2hR-1J-4WU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="7Yw-Mi-Svs"/>
-                    <constraint firstItem="iwe-Cm-6G0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="BMM-Yj-p6w"/>
+                    <constraint firstItem="pPe-Am-FH4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="6GE-e3-wcZ"/>
                     <constraint firstItem="NiR-cV-p4s" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Bzb-6E-fyq"/>
                     <constraint firstItem="NiR-cV-p4s" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="D0a-k9-ZaJ"/>
-                    <constraint firstItem="pPe-Am-FH4" firstAttribute="top" secondItem="iwe-Cm-6G0" secondAttribute="bottom" constant="13" id="GLN-1Q-c9K"/>
-                    <constraint firstItem="iwe-Cm-6G0" firstAttribute="top" secondItem="NiR-cV-p4s" secondAttribute="bottom" constant="20" id="Go0-SI-oJQ"/>
+                    <constraint firstItem="2hR-1J-4WU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="35" id="DTB-FW-ZDz"/>
                     <constraint firstAttribute="trailing" secondItem="NiR-cV-p4s" secondAttribute="trailing" constant="20" id="LQh-b0-d0k"/>
-                    <constraint firstItem="2hR-1J-4WU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="VyO-2G-kd9"/>
-                    <constraint firstAttribute="trailing" secondItem="0XG-cH-PXI" secondAttribute="trailing" constant="30" id="k7i-Pu-AD7"/>
+                    <constraint firstItem="iwe-Cm-6G0" firstAttribute="top" secondItem="2hR-1J-4WU" secondAttribute="bottom" constant="282.67000000000002" id="TEr-1D-N2o"/>
+                    <constraint firstAttribute="trailing" secondItem="0XG-cH-PXI" secondAttribute="trailing" constant="35" id="TMz-yP-hDd"/>
+                    <constraint firstItem="0XG-cH-PXI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="40" id="et2-1a-4Ta"/>
+                    <constraint firstItem="pPe-Am-FH4" firstAttribute="top" secondItem="iwe-Cm-6G0" secondAttribute="bottom" constant="8" symbolic="YES" id="hm5-x4-YyU"/>
+                    <constraint firstItem="iwe-Cm-6G0" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="hum-bg-gCN"/>
+                    <constraint firstItem="2hR-1J-4WU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="35" id="kPS-Ac-LKr"/>
+                    <constraint firstItem="iwe-Cm-6G0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="sG6-gS-vbD"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
@@ -103,6 +107,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="ellipsis" catalog="system" width="128" height="37"/>
+        <image name="DotThree" width="40" height="40"/>
     </resources>
 </document>

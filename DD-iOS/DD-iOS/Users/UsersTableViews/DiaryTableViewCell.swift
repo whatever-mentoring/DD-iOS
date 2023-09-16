@@ -19,13 +19,13 @@ class DiaryTableViewCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
 
-        contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 5, left: 0, bottom: 5, right: 0))
+        contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 3, left: 0, bottom: 3, right: 0))
         
         // TableViewCell 라운드 값
-        contentView.layer.cornerRadius = 10
+        // contentView.layer.cornerRadius = 10
         
         // UIImage 라운드 값
-        diaryImage.layer.cornerRadius = 10
+        diaryImage.layer.cornerRadius = 6
         //
         //diaryImage.alpha = 0.5
     }

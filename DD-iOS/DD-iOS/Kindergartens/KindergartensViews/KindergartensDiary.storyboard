@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="gi1-oD-zp6">
-                                <rect key="frame" x="0.0" y="103" width="393" height="585"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="598"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96078431610000004" green="0.96470588450000005" blue="0.97254902119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </tableView>
@@ -41,11 +41,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="누구에게 보낼까요?" id="pQb-C5-d5E">
                         <barButtonItem key="leftBarButtonItem" title="Item" id="l0s-tn-Isi">
-                            <imageReference key="image" image="circle.fill" catalog="system" symbolScale="medium"/>
+                            <imageReference key="image" image="circle.fill" catalog="system" symbolScale="large"/>
                             <color key="tintColor" systemColor="systemGreenColor"/>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" id="MG1-FM-eTA">
-                            <imageReference key="image" image="rectangle.grid.1x2" catalog="system" symbolScale="medium"/>
+                            <imageReference key="image" image="rectangle.grid.1x2" catalog="system" symbolScale="large"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </barButtonItem>
                     </navigationItem>
@@ -101,21 +101,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Db-fU-0z4">
-                                <rect key="frame" x="0.0" y="214" width="393" height="485"/>
+                                <rect key="frame" x="0.0" y="223" width="393" height="476"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="글 제목 (0/10)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bC1-XY-vio">
-                                        <rect key="frame" x="97" y="8" width="199" height="34"/>
+                                        <rect key="frame" x="97" y="10" width="199" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <nil key="textColor"/>
                                         <fontDescription key="fontDescription" name="HUScribble150" family="HUScribble150" pointSize="20"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eZF-CV-4zg">
-                                        <rect key="frame" x="96" y="50" width="200" height="1"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="labelColor"/>
-                                    </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="꽁지에게 알려주고 싶은 오늘의 일기를 작성해 주세요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DfU-KW-FD0">
                                         <rect key="frame" x="50" y="68" width="293" height="17"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -123,6 +117,11 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eZF-CV-4zg">
+                                        <rect key="frame" x="21" y="47" width="350" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96078431610000004" green="0.96470588450000005" blue="0.97254902119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
@@ -202,7 +201,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="일기쓰기" id="NfX-Ee-MNa">
                         <barButtonItem key="leftBarButtonItem" title="Item" id="U8Q-6A-ncl">
-                            <imageReference key="image" image="circle.fill" catalog="system" symbolScale="medium"/>
+                            <imageReference key="image" image="circle.fill" catalog="system" symbolScale="large"/>
                             <color key="tintColor" systemColor="systemGreenColor"/>
                         </barButtonItem>
                     </navigationItem>

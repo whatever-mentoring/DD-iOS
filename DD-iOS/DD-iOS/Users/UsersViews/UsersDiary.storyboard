@@ -66,11 +66,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="일기" id="mYI-3D-ENQ">
                         <barButtonItem key="leftBarButtonItem" title="Item" id="eOs-xz-ITH">
-                            <imageReference key="image" image="circle.fill" catalog="system" symbolScale="medium"/>
+                            <imageReference key="image" image="circle.fill" catalog="system" symbolScale="large"/>
                             <color key="tintColor" systemColor="systemGreenColor"/>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" id="3qX-fK-1nJ">
-                            <imageReference key="image" image="bell.fill" catalog="system" symbolScale="medium"/>
+                            <imageReference key="image" image="bell.fill" catalog="system" symbolScale="large"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="pzW-kT-1XL" kind="show" id="Tay-CO-zdg"/>
@@ -101,7 +101,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="알림" id="xHT-AC-0CY">
                         <barButtonItem key="leftBarButtonItem" title="Item" id="IHn-Wo-MH6">
-                            <imageReference key="image" image="chevron.backward" catalog="system" symbolScale="medium"/>
+                            <imageReference key="image" image="chevron.backward" catalog="system" symbolScale="large"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="OnCllick_Back_Button:" destination="pzW-kT-1XL" id="DoU-pX-pY0"/>
@@ -200,14 +200,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="일기" id="Eqm-mi-lmb">
                         <barButtonItem key="leftBarButtonItem" title="Item" id="3hQ-Bf-5LH">
-                            <imageReference key="image" image="chevron.backward" catalog="system" symbolScale="medium"/>
+                            <imageReference key="image" image="chevron.backward" catalog="system" symbolScale="large"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="OnClick_Back_Button:" destination="StR-qg-W4C" id="aNq-Lv-Uq7"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" id="nhf-kf-II6">
-                            <imageReference key="image" image="bell.fill" catalog="system" symbolScale="medium"/>
+                            <imageReference key="image" image="bell.fill" catalog="system" symbolScale="large"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </barButtonItem>
                     </navigationItem>
