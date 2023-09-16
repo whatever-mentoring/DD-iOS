@@ -45,6 +45,8 @@
 		26F0D53B2AA9782800DF335B /* UsersMyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F0D53A2AA9782800DF335B /* UsersMyPage.storyboard */; };
 		26FBEEF92AA97C480017D6D1 /* UsersCommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBEEF82AA97C480017D6D1 /* UsersCommunityViewController.swift */; };
 		26FBEEFB2AA97C510017D6D1 /* UsersMyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBEEFA2AA97C510017D6D1 /* UsersMyPageViewController.swift */; };
+		F90672DA2AB1CAD900A7DE6E /* KindergartensDiaryBottomSheetView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90672D92AB1CAD900A7DE6E /* KindergartensDiaryBottomSheetView.storyboard */; };
+		F99875A02AB18E0100B60081 /* KindergartensDiaryWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F998759F2AB18E0100B60081 /* KindergartensDiaryWriteViewController.swift */; };
 		F9A022EA2AAAF60F00DA0F41 /* DiaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A022E82AAAF60F00DA0F41 /* DiaryTableViewCell.swift */; };
 		F9A022EB2AAAF60F00DA0F41 /* DiaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9A022E92AAAF60F00DA0F41 /* DiaryTableViewCell.xib */; };
 		F9A022ED2AAAFB2200DA0F41 /* diaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A022EC2AAAFB2200DA0F41 /* diaryModel.swift */; };
@@ -103,6 +105,8 @@
 		26F0D53A2AA9782800DF335B /* UsersMyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UsersMyPage.storyboard; sourceTree = "<group>"; };
 		26FBEEF82AA97C480017D6D1 /* UsersCommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCommunityViewController.swift; sourceTree = "<group>"; };
 		26FBEEFA2AA97C510017D6D1 /* UsersMyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersMyPageViewController.swift; sourceTree = "<group>"; };
+		F90672D92AB1CAD900A7DE6E /* KindergartensDiaryBottomSheetView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KindergartensDiaryBottomSheetView.storyboard; sourceTree = "<group>"; };
+		F998759F2AB18E0100B60081 /* KindergartensDiaryWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindergartensDiaryWriteViewController.swift; sourceTree = "<group>"; };
 		F9A022E82AAAF60F00DA0F41 /* DiaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewCell.swift; sourceTree = "<group>"; };
 		F9A022E92AAAF60F00DA0F41 /* DiaryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiaryTableViewCell.xib; sourceTree = "<group>"; };
 		F9A022EC2AAAFB2200DA0F41 /* diaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diaryModel.swift; sourceTree = "<group>"; };
@@ -231,9 +235,10 @@
 		26CDB8592AA9FD8100D66C47 /* KindergartensControllers */ = {
 			isa = PBXGroup;
 			children = (
-				26023D4C2AAEDBE200743DDF /* KindergartensHomeOtherControllers */,
 				26CDB8622AA9FF3400D66C47 /* KindergartensHomeViewController.swift */,
+				26023D4C2AAEDBE200743DDF /* KindergartensHomeOtherControllers */,
 				26CDB8602AA9FEDA00D66C47 /* KindergartensDiaryViewController.swift */,
+				F90672DC2AB1CC5100A7DE6E /* KindergartensHomeOtherControllersKindergartensDiaryOtherControllers */,
 				26CDB85E2AA9FEC400D66C47 /* KindergartensCommunityViewController.swift */,
 				26CDB85C2AA9FEA500D66C47 /* KindergartensMyPageViewController.swift */,
 			);
@@ -246,6 +251,7 @@
 				26CDB86A2AA9FF9F00D66C47 /* KindergartensHome.storyboard */,
 				26023D412AAEDAAF00743DDF /* KindergartensHomeOtherViews */,
 				26CDB8682AA9FF8000D66C47 /* KindergartensDiary.storyboard */,
+				F90672DB2AB1CC2200A7DE6E /* KindergartensHomeOtherViewsKindergartensDiaryOtherViews */,
 				26CDB8662AA9FF6F00D66C47 /* KindergartensCommunity.storyboard */,
 				26CDB8642AA9FF5D00D66C47 /* KindergartensMyPage.storyboard */,
 			);
@@ -269,6 +275,22 @@
 				26CDB8592AA9FD8100D66C47 /* KindergartensControllers */,
 			);
 			path = Kindergartens;
+			sourceTree = "<group>";
+		};
+		F90672DB2AB1CC2200A7DE6E /* KindergartensHomeOtherViewsKindergartensDiaryOtherViews */ = {
+			isa = PBXGroup;
+			children = (
+				F90672D92AB1CAD900A7DE6E /* KindergartensDiaryBottomSheetView.storyboard */,
+			);
+			path = KindergartensHomeOtherViewsKindergartensDiaryOtherViews;
+			sourceTree = "<group>";
+		};
+		F90672DC2AB1CC5100A7DE6E /* KindergartensHomeOtherControllersKindergartensDiaryOtherControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F998759F2AB18E0100B60081 /* KindergartensDiaryWriteViewController.swift */,
+			);
+			path = KindergartensHomeOtherControllersKindergartensDiaryOtherControllers;
 			sourceTree = "<group>";
 		};
 		F9A022E72AAAF5F500DA0F41 /* UsersTableViews */ = {
@@ -410,6 +432,7 @@
 				26CDB8692AA9FF8000D66C47 /* KindergartensDiary.storyboard in Resources */,
 				F9AF788D2AAE9D4900DCA173 /* img1.jpg in Resources */,
 				F9AF788C2AAE9D4900DCA173 /* img3.jpeg in Resources */,
+				F90672DA2AB1CAD900A7DE6E /* KindergartensDiaryBottomSheetView.storyboard in Resources */,
 				26F0D5372AA977F900DF335B /* UsersDiary.storyboard in Resources */,
 				F9AF788B2AAE9D4900DCA173 /* img2.webp in Resources */,
 				26023D4B2AAEDBCE00743DDF /* KindergartensMedication.storyboard in Resources */,
@@ -465,6 +488,7 @@
 				26023D522AAEDC3F00743DDF /* KindergartensTimetableViewController.swift in Sources */,
 				F9FC4B262AAFFB4F00C9E38D /* UsersDiaryAlarmViewController.swift in Sources */,
 				26023D542AAEDC4900743DDF /* KindergartensAttendanceViewController.swift in Sources */,
+				F99875A02AB18E0100B60081 /* KindergartensDiaryWriteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
