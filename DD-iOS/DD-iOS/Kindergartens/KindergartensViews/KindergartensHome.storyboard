@@ -31,127 +31,6 @@
                                                     <constraint firstAttribute="height" constant="100" id="b5Z-Xl-7cr"/>
                                                 </constraints>
                                             </view>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="PCq-1a-pK7" userLabel="Page Stack View">
-                                                <rect key="frame" x="20" y="120" width="353" height="77"/>
-                                                <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="sLL-cy-jw7">
-                                                        <rect key="frame" x="0.0" y="0.0" width="54.666666666666664" height="77"/>
-                                                        <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8BN-fL-lQ9">
-                                                                <rect key="frame" x="0.0" y="0.0" width="54.666666666666664" height="54.666666666666664"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" secondItem="8BN-fL-lQ9" secondAttribute="height" multiplier="1:1" id="0Yk-gB-zQB"/>
-                                                                </constraints>
-                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" image="pngwing.com"/>
-                                                                <connections>
-                                                                    <segue destination="yON-VC-KgY" kind="show" id="0xQ-nc-lgG"/>
-                                                                </connections>
-                                                            </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="일정표" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Gso-Gw-29a">
-                                                                <rect key="frame" x="0.0" y="62.666666666666693" width="54.666666666666664" height="14.333333333333336"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                        </subviews>
-                                                        <string key="userLabel">
-Schedule Stack View</string>
-                                                    </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WG9-55-lcY">
-                                                        <rect key="frame" x="74.666666666666671" y="0.0" width="54.666666666666671" height="77"/>
-                                                        <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sw2-47-Cal">
-                                                                <rect key="frame" x="0.0" y="0.0" width="54.666666666666664" height="54.666666666666664"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" secondItem="Sw2-47-Cal" secondAttribute="height" multiplier="1:1" id="jeC-6P-Gpi"/>
-                                                                </constraints>
-                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" image="pngwing.com"/>
-                                                                <connections>
-                                                                    <segue destination="qFR-lq-blw" kind="show" id="iuW-Zr-5CK"/>
-                                                                </connections>
-                                                            </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="공지사항" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vHv-25-CN2">
-                                                                <rect key="frame" x="0.0" y="62.666666666666693" width="54.666666666666664" height="14.333333333333336"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                        </subviews>
-                                                        <string key="userLabel">
-Announcement Stack View</string>
-                                                    </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="BvO-MB-dYv" userLabel="Timetable Stack View">
-                                                        <rect key="frame" x="149.33333333333334" y="0.0" width="54.333333333333343" height="77"/>
-                                                        <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hgh-Ti-fLe">
-                                                                <rect key="frame" x="0.0" y="0.0" width="54.333333333333336" height="54.666666666666664"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" secondItem="Hgh-Ti-fLe" secondAttribute="height" multiplier="1:1" id="BLf-2d-Naf"/>
-                                                                </constraints>
-                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" image="pngwing.com"/>
-                                                                <connections>
-                                                                    <segue destination="dHZ-jC-euZ" kind="show" id="Ksf-eX-hfm"/>
-                                                                </connections>
-                                                            </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="시간표" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="1Sc-tX-M3A">
-                                                                <rect key="frame" x="0.0" y="62.666666666666693" width="54.333333333333336" height="14.333333333333336"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                        </subviews>
-                                                    </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="18x-qW-Tbn">
-                                                        <rect key="frame" x="223.66666666666666" y="0.0" width="54.666666666666657" height="77"/>
-                                                        <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1t-9a-4kq">
-                                                                <rect key="frame" x="0.0" y="0.0" width="54.666666666666664" height="54.666666666666664"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" secondItem="O1t-9a-4kq" secondAttribute="height" multiplier="1:1" id="oa5-Pg-djQ"/>
-                                                                </constraints>
-                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" image="pngwing.com"/>
-                                                                <connections>
-                                                                    <segue destination="lfB-hy-baZ" kind="show" id="qKl-4z-3eE"/>
-                                                                </connections>
-                                                            </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="출석표" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="mpN-9q-iwH">
-                                                                <rect key="frame" x="0.0" y="62.666666666666693" width="54.666666666666664" height="14.333333333333336"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                        </subviews>
-                                                        <string key="userLabel">
-Attendance Stack View</string>
-                                                    </stackView>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Zew-gP-QKh" userLabel="Medication Stack View">
-                                                        <rect key="frame" x="298.33333333333331" y="0.0" width="54.666666666666686" height="77"/>
-                                                        <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgV-0j-5ep">
-                                                                <rect key="frame" x="0.0" y="0.0" width="54.666666666666664" height="54.666666666666664"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="width" secondItem="jgV-0j-5ep" secondAttribute="height" multiplier="1:1" id="gRP-Jc-Drz"/>
-                                                                </constraints>
-                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" image="pngwing.com"/>
-                                                                <connections>
-                                                                    <segue destination="ZhH-z4-SPt" kind="show" id="2kR-FU-D1k"/>
-                                                                </connections>
-                                                            </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="투약의뢰서" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9Mq-L1-WVn">
-                                                                <rect key="frame" x="0.0" y="62.666666666666693" width="54.666666666666664" height="14.333333333333336"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                        </subviews>
-                                                    </stackView>
-                                                </subviews>
-                                            </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="gBv-QN-TNG" userLabel="Label Stack View">
                                                 <rect key="frame" x="20" y="277" width="160" height="55"/>
                                                 <subviews>
@@ -310,24 +189,191 @@ Attendance Stack View</string>
                                                     <constraint firstAttribute="height" constant="200" id="Zm4-We-M6x"/>
                                                 </constraints>
                                             </view>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="76Q-2y-Pfn" userLabel="Page Stack View">
+                                                <rect key="frame" x="20" y="120" width="353" height="77"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="jtB-Vc-jAZ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="54.666666666666664" height="77"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="회색원" translatesAutoresizingMaskIntoConstraints="NO" id="G8H-qM-IkR">
+                                                                <rect key="frame" x="0.0" y="0.0" width="54.666666666666664" height="54.666666666666664"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="G8H-qM-IkR" secondAttribute="height" id="OiD-he-Suc"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="일정표" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="opg-CA-WcD">
+                                                                <rect key="frame" x="0.0" y="62.666666666666693" width="54.666666666666664" height="14.333333333333336"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <string key="userLabel">
+Schedule Stack View</string>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="zsw-Tj-D1p">
+                                                        <rect key="frame" x="74.666666666666671" y="0.0" width="54.666666666666671" height="77"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="회색원" translatesAutoresizingMaskIntoConstraints="NO" id="OMV-9x-7jL">
+                                                                <rect key="frame" x="0.0" y="0.0" width="54.666666666666664" height="54.666666666666664"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="OMV-9x-7jL" secondAttribute="height" id="8MT-79-xQg"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="공지사항" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Yve-Eb-evZ">
+                                                                <rect key="frame" x="0.0" y="62.666666666666693" width="54.666666666666664" height="14.333333333333336"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <string key="userLabel">
+Announcement Stack View</string>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="rJQ-4b-8Yy" userLabel="Timetable Stack View">
+                                                        <rect key="frame" x="149.33333333333334" y="0.0" width="54.333333333333343" height="77"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="회색원" translatesAutoresizingMaskIntoConstraints="NO" id="gMA-Xg-Q8o">
+                                                                <rect key="frame" x="0.0" y="0.0" width="54.333333333333336" height="54.666666666666664"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="gMA-Xg-Q8o" secondAttribute="height" id="NFr-eR-IUq"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="식단표" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="CUQ-GO-Rdp">
+                                                                <rect key="frame" x="0.0" y="62.666666666666693" width="54.333333333333336" height="14.333333333333336"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Rrm-Xv-upA">
+                                                        <rect key="frame" x="223.66666666666666" y="0.0" width="54.666666666666657" height="77"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="초록원" translatesAutoresizingMaskIntoConstraints="NO" id="D8C-OS-ecZ">
+                                                                <rect key="frame" x="0.0" y="0.0" width="54.666666666666664" height="54.666666666666664"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="D8C-OS-ecZ" secondAttribute="height" id="uVc-SG-IlM"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="출석표" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="oEh-ea-PFP">
+                                                                <rect key="frame" x="0.0" y="62.666666666666693" width="54.666666666666664" height="14.333333333333336"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <string key="userLabel">
+Attendance Stack View</string>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="eYB-pS-Fs3" userLabel="Medication Stack View">
+                                                        <rect key="frame" x="298.33333333333331" y="0.0" width="54.666666666666686" height="77"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="회색원" translatesAutoresizingMaskIntoConstraints="NO" id="o0x-QT-rYK">
+                                                                <rect key="frame" x="0.0" y="0.0" width="54.666666666666664" height="54.666666666666664"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="o0x-QT-rYK" secondAttribute="height" id="PAX-cq-Ezh"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="투약의뢰서" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FMI-7p-H9V">
+                                                                <rect key="frame" x="0.0" y="62.666666666666693" width="54.666666666666664" height="14.333333333333336"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="TSy-yt-qTv" userLabel="Page Button Stack View">
+                                                <rect key="frame" x="20" y="120.00000000000001" width="353" height="54.666666666666671"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HPM-RM-Ccm">
+                                                        <rect key="frame" x="0.0" y="0.0" width="54.666666666666664" height="54.666666666666664"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="HPM-RM-Ccm" secondAttribute="height" id="R9J-2O-Agi"/>
+                                                        </constraints>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="일정표"/>
+                                                        <connections>
+                                                            <segue destination="yON-VC-KgY" kind="show" id="ThL-E5-eSk"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyM-VM-7zz">
+                                                        <rect key="frame" x="74.666666666666671" y="0.0" width="54.666666666666671" height="54.666666666666664"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="eyM-VM-7zz" secondAttribute="height" id="4C3-NL-IlH"/>
+                                                        </constraints>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="공지사항"/>
+                                                        <connections>
+                                                            <segue destination="qFR-lq-blw" kind="show" id="C6i-Jl-sCT"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBb-9E-3ZG">
+                                                        <rect key="frame" x="149.33333333333334" y="0.0" width="54.333333333333343" height="54.666666666666664"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="ZBb-9E-3ZG" secondAttribute="height" id="Z9M-3V-qsi"/>
+                                                        </constraints>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="식단표"/>
+                                                        <connections>
+                                                            <segue destination="dHZ-jC-euZ" kind="show" id="vMz-h0-aAE"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEA-Xe-Iqw">
+                                                        <rect key="frame" x="223.66666666666666" y="0.0" width="54.666666666666657" height="54.666666666666664"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="eEA-Xe-Iqw" secondAttribute="height" id="CMg-IJ-EJd"/>
+                                                        </constraints>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="출석표"/>
+                                                        <connections>
+                                                            <segue destination="lfB-hy-baZ" kind="show" id="pPF-bw-V6D"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPL-92-v04">
+                                                        <rect key="frame" x="298.33333333333331" y="0.0" width="54.666666666666686" height="54.666666666666664"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="bPL-92-v04" secondAttribute="height" id="Yzt-ow-hxQ"/>
+                                                        </constraints>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="투약의뢰서"/>
+                                                        <connections>
+                                                            <segue destination="ZhH-z4-SPt" kind="show" id="zhv-Js-gc8"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="bPL-92-v04" firstAttribute="width" secondItem="bPL-92-v04" secondAttribute="height" id="0X3-Ru-Y0x"/>
+                                                    <constraint firstItem="eyM-VM-7zz" firstAttribute="width" secondItem="eyM-VM-7zz" secondAttribute="height" id="MgH-qn-oGB"/>
+                                                    <constraint firstItem="bPL-92-v04" firstAttribute="width" secondItem="bPL-92-v04" secondAttribute="height" id="TRn-bB-BvS"/>
+                                                    <constraint firstItem="HPM-RM-Ccm" firstAttribute="width" secondItem="HPM-RM-Ccm" secondAttribute="height" id="c6n-y2-x6Y"/>
+                                                    <constraint firstItem="eEA-Xe-Iqw" firstAttribute="width" secondItem="eEA-Xe-Iqw" secondAttribute="height" id="dlO-GX-fHU"/>
+                                                    <constraint firstItem="HPM-RM-Ccm" firstAttribute="width" secondItem="HPM-RM-Ccm" secondAttribute="height" id="kBC-PX-HH3"/>
+                                                </constraints>
+                                            </stackView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
+                                            <constraint firstItem="76Q-2y-Pfn" firstAttribute="leading" secondItem="rk1-Ht-ccM" secondAttribute="leading" constant="20" id="0Ye-JZ-3jr"/>
                                             <constraint firstItem="tAc-iJ-RVH" firstAttribute="leading" secondItem="rk1-Ht-ccM" secondAttribute="leading" constant="20" id="1lu-ON-Cwc"/>
                                             <constraint firstItem="0z4-70-A38" firstAttribute="leading" secondItem="rk1-Ht-ccM" secondAttribute="leading" constant="20" id="3Bp-f3-zGq"/>
                                             <constraint firstItem="tAc-iJ-RVH" firstAttribute="top" secondItem="gBv-QN-TNG" secondAttribute="bottom" constant="10" id="46a-jc-VKi"/>
                                             <constraint firstItem="BLY-cC-pd9" firstAttribute="leading" secondItem="rk1-Ht-ccM" secondAttribute="leading" constant="20" id="6LW-ME-pcR"/>
+                                            <constraint firstAttribute="trailing" secondItem="76Q-2y-Pfn" secondAttribute="trailing" constant="20" id="716-5r-3ah"/>
+                                            <constraint firstItem="TSy-yt-qTv" firstAttribute="top" secondItem="tbP-Fv-Y40" secondAttribute="bottom" constant="20" id="8uj-fn-ubi"/>
+                                            <constraint firstItem="TSy-yt-qTv" firstAttribute="leading" secondItem="rk1-Ht-ccM" secondAttribute="leading" constant="20" id="9Vl-vj-oV0"/>
                                             <constraint firstItem="tbP-Fv-Y40" firstAttribute="leading" secondItem="rk1-Ht-ccM" secondAttribute="leading" id="Dgj-QP-h9r"/>
                                             <constraint firstItem="BLY-cC-pd9" firstAttribute="top" secondItem="tAc-iJ-RVH" secondAttribute="bottom" constant="15" id="Hpf-AZ-wcv"/>
                                             <constraint firstAttribute="trailing" secondItem="0z4-70-A38" secondAttribute="trailing" constant="20" id="JJX-lY-vy4"/>
-                                            <constraint firstItem="gBv-QN-TNG" firstAttribute="top" secondItem="PCq-1a-pK7" secondAttribute="bottom" constant="80" id="MGF-Ld-oqe"/>
-                                            <constraint firstAttribute="trailing" secondItem="PCq-1a-pK7" secondAttribute="trailing" constant="20" id="Yac-Gi-qiq"/>
-                                            <constraint firstItem="PCq-1a-pK7" firstAttribute="leading" secondItem="rk1-Ht-ccM" secondAttribute="leading" constant="20" id="cjf-Mq-AjC"/>
+                                            <constraint firstAttribute="trailing" secondItem="TSy-yt-qTv" secondAttribute="trailing" constant="20" id="UcB-z4-LOC"/>
+                                            <constraint firstItem="76Q-2y-Pfn" firstAttribute="top" secondItem="tbP-Fv-Y40" secondAttribute="bottom" constant="20" id="co9-HK-sMu"/>
                                             <constraint firstAttribute="trailing" secondItem="tbP-Fv-Y40" secondAttribute="trailing" id="cvf-mT-D8q"/>
+                                            <constraint firstItem="gBv-QN-TNG" firstAttribute="top" secondItem="76Q-2y-Pfn" secondAttribute="bottom" constant="80" id="gPl-rN-0me"/>
                                             <constraint firstItem="0z4-70-A38" firstAttribute="top" secondItem="BLY-cC-pd9" secondAttribute="bottom" constant="15" id="hbI-ht-jqh"/>
                                             <constraint firstItem="gBv-QN-TNG" firstAttribute="leading" secondItem="rk1-Ht-ccM" secondAttribute="leading" constant="20" id="pLi-Cb-xJZ"/>
                                             <constraint firstAttribute="trailing" secondItem="tAc-iJ-RVH" secondAttribute="trailing" constant="20" id="vTa-jv-wcD"/>
-                                            <constraint firstItem="PCq-1a-pK7" firstAttribute="top" secondItem="tbP-Fv-Y40" secondAttribute="bottom" constant="20" id="xeO-c6-alb"/>
                                             <constraint firstAttribute="bottom" secondItem="0z4-70-A38" secondAttribute="bottom" constant="10" id="yR2-Pv-MOP"/>
                                             <constraint firstItem="tbP-Fv-Y40" firstAttribute="top" secondItem="rk1-Ht-ccM" secondAttribute="top" id="zrU-Ls-FBQ"/>
                                         </constraints>
@@ -420,11 +466,11 @@ Attendance Stack View</string>
             </objects>
             <point key="canvasLocation" x="3924" y="142"/>
         </scene>
-        <!--Home-->
+        <!--홈-->
         <scene sceneID="04u-54-iGA">
             <objects>
                 <navigationController storyboardIdentifier="KindergartensHomeViewController" automaticallyAdjustsScrollViewInsets="NO" id="dfC-ek-ivo" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="jYm-za-XPE"/>
+                    <tabBarItem key="tabBarItem" title="홈" image="house.fill" catalog="system" id="jYm-za-XPE"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="VkQ-ag-xGQ">
@@ -449,7 +495,14 @@ Attendance Stack View</string>
     <resources>
         <image name="bell.fill" catalog="system" width="123" height="128"/>
         <image name="circle.fill" catalog="system" width="128" height="123"/>
-        <image name="pngwing.com" width="960" height="960"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="공지사항" width="32" height="32"/>
+        <image name="식단표" width="32" height="32"/>
+        <image name="일정표" width="32" height="32"/>
+        <image name="초록원" width="48" height="48"/>
+        <image name="출석표" width="32" height="32"/>
+        <image name="투약의뢰서" width="32" height="32"/>
+        <image name="회색원" width="48" height="48"/>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
